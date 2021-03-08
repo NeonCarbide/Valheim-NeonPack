@@ -1,14 +1,9 @@
 {
-  "ManifestVersion": 2,
-  "AuthorName": "NeonCarbide",
-  "Name": "NeonCarbide-NeonPack",
-  "DisplayName": "NeonPack",
-  "Version": "1.3.1",
-  "Licence": "",
-  "WebsiteURL": "https://github.com/NeonCarbide/Valheim-NeonPack",
-  "Description": "A collection of mods that I use",
-  "GameVersion": "N/A",
-  "Dependencies": [
+  "name": "NeonPack",
+  "version_number": "1.3.1",
+  "website_url": "https://github.com/NeonCarbide/Valheim-NeonPack",
+  "description": "A collection of mods that I use",
+  "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.800",
     "ERROR-BetterDiscordPresence-1.3.1",
     "Masa-BetterUI-1.5.0",
@@ -44,12 +39,5 @@
     "gittywithexcitement-Build_Camera-1.4.1",
     "abearcodes-SimpleRecycling-0.0.9",
     "mgway-PaddlePower-1.0.2"
-  ],
-  "OptionalDependencies": [],
-  "Incompatibilities": [],
-  "NetworkMode": "both",
-  "PackageType": "modpack",
-  "InstallMode": "managed",
-  "Loaders": ["bepinex"],
-  "ExtraData": {}
+  ]
 }
