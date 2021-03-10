@@ -2,7 +2,7 @@
 
 A collection of mods from Thunderstore that I use in my singleplayer world
 
-I also use the following mods from NexusMods:
+I also use the following mods from NexusMods
 
 _Required:_
 
@@ -25,6 +25,12 @@ _Optional:_
 - Nexus Update Check 0.9.2
 - Precise Rotation 1.0.1-hotfix
 ```
+
+I've included a template with an icon and an empty mod manifest.json in the github for this modpack to help add compatibility for NexusMods mods with r2modmanager
+
+Simply add both files to the mod's .zip, then modify the manifest.json with the relevant mod's information
+
+You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 
 ## Changelog
 
