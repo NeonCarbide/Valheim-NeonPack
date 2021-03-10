@@ -8,8 +8,8 @@ I also use the following mods from NexusMods
 
 _Required:_
 
-- [Combat Evolved 0.3.2][combat-evolved]
-- [Fitness Skill 1.0.0][fitness-skill]
+- [Combat Evolved 0.3.3][combat-evolved]
+- [Fitness Skill 1.0.1][fitness-skill]
 - [Gathering Skill 1.0.2][gathering-skill]
 - [Pickable Time Fix 1.0.1][pickable-time-fix]
 - [Planting Plus 1.4.5][planting-plus]
@@ -18,6 +18,7 @@ _Required:_
 _Optional:_
 
 - [Clock 0.8.4][clock]
+- [Configurable Autosave 1.1.0][configurable-autosave]
 - [Emote Keys 0.1.0][emote-keys]
 - [Loki's First Person Valheim Mod 1.0.6][lokis-first-person]
 - [Loki's Immersion Mods 1.0.3][lokis-immersion]
@@ -31,6 +32,19 @@ Simply add both files to the mod's .zip, then modify the manifest.json with the 
 You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 
 ## Changelog
+
+```text
+Version 1.6.0
+
+  [NexusMods]
+
+  + Added Configurable Autosave 1.1.0
+
+  * Updated Combat Evolved
+    - 0.3.2 -> 0.3.3
+  * Updated Fitness Skill
+    - 1.0.0 -> 1.0.1
+```
 
 ```text
 Version 1.5.1
@@ -100,6 +114,7 @@ Version 1.3.1
 
 [clock]: https://www.nexusmods.com/valheim/mods/85
 [combat-evolved]: https://www.nexusmods.com/valheim/mods/301
+[configurable-autosave]: https://www.nexusmods.com/valheim/mods/199
 [emote-keys]: https://www.nexusmods.com/valheim/mods/318
 [fitness-skill]: https://www.nexusmods.com/valheim/mods/388
 [gathering-skill]: https://www.nexusmods.com/valheim/mods/342
