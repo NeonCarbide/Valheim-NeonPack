@@ -1,0 +1,19 @@
+{
+  "ManifestVersion": 2,
+  "AuthorName": "exampleauthor",
+  "Name": "exampleauthor-Example Mod",
+  "DisplayName": "Example Mod",
+  "Version": "1.0.0",
+  "Licence": "",
+  "WebsiteURL": "https://www.google.com/",
+  "Description": "This is an example mod manifest file to show the minimum requirements for a functional mod manifest",
+  "GameVersion": "N/A",
+  "Dependencies": [],
+  "OptionalDependencies": [],
+  "Incompatibilities": [],
+  "NetworkMode": "both",
+  "PackageType": "mod",
+  "InstallMode": "managed",
+  "Loaders": ["bepinex"],
+  "ExtraData": {}
+}
