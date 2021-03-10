@@ -34,6 +34,15 @@ You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 ## Changelog
 
 ```text
+Version 1.6.1
+
+  [Thunderstore]
+
+  * Updated Valheim Lib
+    - 0.0.6 -> 0.0.7
+```
+
+```text
 Version 1.6.0
 
   [NexusMods]
