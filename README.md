@@ -36,7 +36,7 @@ You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 ```text
 Version 1.6.1
 
-  [Thunderstore]
+[Thunderstore]
 
   * Updated Valheim Lib
     - 0.0.6 -> 0.0.7
@@ -45,7 +45,7 @@ Version 1.6.1
 ```text
 Version 1.6.0
 
-  [NexusMods]
+[NexusMods]
 
   + Added Configurable Autosave 1.1.0
 
@@ -58,7 +58,7 @@ Version 1.6.0
 ```text
 Version 1.5.1
 
-  [Thunderstore]
+[Thunderstore]
 
   - Removed Fermenter Percentage
     - Similar feature added by Better UI
@@ -67,7 +67,7 @@ Version 1.5.1
 ```text
 Version 1.5.0
 
-  [Thunderstore]
+[Thunderstore]
 
   + Added Gizmo 1.0.0
   + Added Jam 1.0.2
@@ -86,7 +86,7 @@ Version 1.5.0
   * Updated Valheim Lib
     - 0.0.5 -> 0.0.6
 
-  [NexusMods]
+[NexusMods]
 
   + Added Fitness Skill 1.0.0
 
@@ -103,7 +103,7 @@ Version 1.5.0
 ```text
 Version 1.4.0
 
-  [NexusMods]
+[NexusMods]
 
   + Added Planting Plus 1.3.0
 
