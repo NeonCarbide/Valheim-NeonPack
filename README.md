@@ -117,7 +117,7 @@ Version 1.3.1
   # Initial Release on Thunderstore
 ```
 
-[github]: https://github.com/NeonCarbide/Valheim-NeonPack/tree/main/extras
+[github-extras]: https://github.com/NeonCarbide/Valheim-NeonPack/tree/main/extras
 
 <!-- Mod Links -->
 
