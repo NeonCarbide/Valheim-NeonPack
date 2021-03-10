@@ -2,7 +2,7 @@
 
 A collection of mods from Thunderstore that I use in my singleplayer world
 
-I've included the configuration files for all the mods that have them in the [github for this modpack][github]
+I've included the configuration files for all the mods that have them in the [github for this modpack][github-extras]
 
 I also use the following mods from NexusMods
 
@@ -25,7 +25,7 @@ _Optional:_
 - [Nexus Update Check 0.9.2][nexus-update-check]
 - [Precise Rotation 1.0.1-hotfix][precise-rotation]
 
-I've included a template with an icon and an empty mod manifest.json in the [github for this modpack][github] to help add compatibility for NexusMods mods with r2modmanager
+I've included a template with an icon and an empty mod manifest.json in the [github for this modpack][github-extras] to help add compatibility for NexusMods mods with r2modmanager
 
 Simply add both files to the mod's .zip, then modify the manifest.json with the relevant mod's information
 
@@ -117,7 +117,7 @@ Version 1.3.1
   # Initial Release on Thunderstore
 ```
 
-[github]: https://github.com/NeonCarbide/Valheim-NeonPack
+[github]: https://github.com/NeonCarbide/Valheim-NeonPack/tree/main/extras
 
 <!-- Mod Links -->
 
