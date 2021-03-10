@@ -23,7 +23,6 @@ _Optional:_
 - [Loki's First Person Valheim Mod 1.0.6][lokis-first-person]
 - [Loki's Immersion Mods 1.0.3][lokis-immersion]
 - [Nexus Update Check 0.9.2][nexus-update-check]
-- [Precise Rotation 1.0.1-hotfix][precise-rotation]
 
 I've included a template with an icon and an empty mod manifest.json in the [github for this modpack][github-extras] to help add compatibility for NexusMods mods with r2modmanager
 
@@ -32,6 +31,15 @@ Simply add both files to the mod's .zip, then modify the manifest.json with the 
 You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 
 ## Changelog
+
+```text
+Version 1.6.2
+
+[NexusMods]
+
+  - Removed Precise Rotation
+    - Similar feature added by Gizmo
+```
 
 ```text
 Version 1.6.1

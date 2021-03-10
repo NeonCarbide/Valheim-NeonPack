@@ -25,7 +25,6 @@ I've included all my configuration files for the mods that generate them, as wel
   - [No Health Bars](#no-health-bars)
 - [Paddle Power](#paddle-power)
 - [Planting Plus](#planting-plus)
-- [Precise Rotation](#precise-rotation)
 - [Skillful](#skillful)
 - [Triple Bronze](#triple-bronze)
 - [Useful Trophies](#useful-trophies)
@@ -232,16 +231,6 @@ RequireCultivation
   false  ->  true
 
 AlternateIcons
-  false  ->  true
-```
-
-### Precise Rotation
-
-```text
-RotationModifier
-  LeftAlt  ->  RightControl
-
-OverrideRotation
   false  ->  true
 ```
 
