@@ -20,6 +20,7 @@ I've included all my configuration files for the mods that generate them, as wel
 - [It's Just Wood](#its-just-wood)
 - [Loki's First Person Valheim Mod](#lokis-first-person-valheim-mod)
 - [Loki's Immersion Mods](#lokis-immersion-mods)
+  - [Hide Crosshair](#hide-crosshair)
   - [Meditation](#meditation)
   - [Minimap](#minimap)
   - [No Health Bars](#no-health-bars)
@@ -191,10 +192,17 @@ ShowBodyWhenBlocking
   false  ->  true
 
 Hotkey
-  H  ->  O + LeftControl
+  H  ->  O
 ```
 
 ### Loki's Immersion Mods
+
+#### Hide Crosshair
+
+```text
+Hotkey
+  P + LeftControl  ->  P
+```
 
 #### Meditation
 
@@ -207,7 +215,7 @@ EnableMod
 
 ```text
 Hotkey
-  O + LeftControl  ->  I + LeftControl
+  O + LeftControl  ->  I
 ```
 
 #### No Health Bars
