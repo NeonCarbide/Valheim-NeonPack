@@ -34,6 +34,7 @@ You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 
 ```text
 Version 1.5.1
+
   [Thunderstore]
 
   - Removed Fermenter Percentage
