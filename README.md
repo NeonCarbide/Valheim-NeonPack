@@ -33,6 +33,14 @@ You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 ## Changelog
 
 ```text
+Version 1.5.1
+  [Thunderstore]
+
+  - Removed Fermenter Percentage
+    - Similar feature added by Better UI
+```
+
+```text
 Version 1.5.0
 
   [Thunderstore]
