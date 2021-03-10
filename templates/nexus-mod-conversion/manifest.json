@@ -1,0 +1,19 @@
+{
+  "ManifestVersion": 2,
+  "AuthorName": "",
+  "Name": "-",
+  "DisplayName": "",
+  "Version": "",
+  "Licence": "",
+  "WebsiteURL": "",
+  "Description": "",
+  "GameVersion": "N/A",
+  "Dependencies": [],
+  "OptionalDependencies": [],
+  "Incompatibilities": [],
+  "NetworkMode": "both",
+  "PackageType": "mod",
+  "InstallMode": "managed",
+  "Loaders": ["bepinex"],
+  "ExtraData": {}
+}
