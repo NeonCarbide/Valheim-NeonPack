@@ -1,6 +1,6 @@
 {
   "name": "NeonPack",
-  "version_number": "1.6.2",
+  "version_number": "1.7.0",
   "website_url": "https://github.com/NeonCarbide/Valheim-NeonPack",
   "description": "A collection of mods from Thunderstore that I use in my singleplayer world",
   "dependencies": [
@@ -11,8 +11,7 @@
     "Valdream-Data_Rate_Modifier-1.0.1",
     "RandyKnapp-ImprovedDvergerCirclet-1.0.1",
     "PhantomGamers-PreventAccidentalInteraction-1.0.3",
-    "MaGic-Quick_Deposit-1.0.1",
-    "nearbear-BiggerBoatMapExploreRadius-1.0.0",
+    "nearbear-BiggerBoatMapExploreRadius-1.0.3",
     "KaceCottam-TripleBronze-0.2.1",
     "Merlyn42-FortifySkills-1.2.0",
     "RandyKnapp-ItsJustWood-1.0.1",
@@ -28,18 +27,22 @@
     "ValheimModding-HookGenPatcher-0.0.2",
     "xiaoxiao921-Lead-0.0.2",
     "Khairex-Useful_Trophies-1.1.0",
-    "Rolo-ExploreTogether-1.2.0",
-    "nearbear-BetterAutoRun-1.0.2",
+    "Rolo-ExploreTogether-1.2.2",
+    "nearbear-BetterAutoRun-1.0.3",
     "Xenofell-BuildHelper-0.2.0",
     "ceko-ValheimArmorstand-0.0.1",
     "bakaspaceman-Better_Stamina-1.2.0",
     "bakaspaceman-Wet_And_Cold-1.0.2",
     "DeekyJay-DropJustEnough-1.0.1",
     "gittywithexcitement-Build_Camera-1.4.1",
-    "abearcodes-SimpleRecycling-0.0.10",
+    "abearcodes-SimpleRecycling-0.0.11",
     "mgway-PaddlePower-1.0.2",
     "Rolo-Gizmo-1.0.0",
     "RandyKnapp-Jam-1.0.2",
-    "1010101110-multiplayerboatdamage-0.0.1"
+    "1010101110-multiplayerboatdamage-0.0.1",
+    "ceko-ValheimBrawler-0.0.4",
+    "purpledxd-SkipIntro-1.0.1",
+    "damnsneaker-QuickStack-0.6.3",
+    "virtuaCode-EmoteWheel-1.0.1"
   ]
 }

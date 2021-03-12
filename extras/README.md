@@ -12,10 +12,10 @@ I've included all my configuration files for the mods that generate them, as wel
 - [Clock](#clock)
 - [Configurable Autosave](#configurable-autosave)
 - [Data Rate Modifier](#data-rate-modifier)
-- [Emote Keys](#emote-keys)
 - [Equipment and Quick Slots](#equipment-and-quick-slots)
 - [Explore Together](#explore-together)
 - [Fitness Skill](#fitness-skill)
+- [Gathering Skill](#gathering-skill)
 - [Gizmo](#gizmo)
 - [It's Just Wood](#its-just-wood)
 - [Loki's First Person Valheim Mod](#lokis-first-person-valheim-mod)
@@ -24,10 +24,12 @@ I've included all my configuration files for the mods that generate them, as wel
   - [Meditation](#meditation)
   - [Minimap](#minimap)
   - [No Health Bars](#no-health-bars)
+- [Nexus Update Check](#nexus-update-check)
 - [Paddle Power](#paddle-power)
 - [Planting Plus](#planting-plus)
 - [Skillful](#skillful)
 - [Triple Bronze](#triple-bronze)
+- [Useful Paths](#useful-paths)
 - [Useful Trophies](#useful-trophies)
 - [Wet and Cold](#wet-and-cold)
 
@@ -81,7 +83,7 @@ AreaRepairRadius
 
 ```text
 ClockLocationString
-  50%,3%  ->  75%,5%
+  50%,3%  ->  75%,3%
 
 ClockUseShadow
   false  ->  true
@@ -113,44 +115,19 @@ Rate
   10  ->  2
 ```
 
-### Emote Keys
-
-```text
-SitKey
-  [1]  ->  [5]
-
-WaveKey
-  [2]  ->  [1]
-
-CheerKey
-  [4]  ->  [2]
-
-NoKey
-  [5]  ->  [6]
-
-ThumbsUpKey
-  [6]  ->  [4]
-
-PointKey
-  [7]  ->  [0]
-```
-
 ### Equipment and Quick Slots
 
 ```text
-Quick slot hotkey 1
-  z  ->  t
-
 Quick slot hotkey 2
-  v  ->  g
+  v  ->  x
+
+Quick slot hotkey 3
+  b  ->  c
 ```
 
 ### Explore Together
 
 ```text
-PingInputKey
-  T  ->  Y
-
 CoordsInMinimap
   true  ->  false
 ```
@@ -163,6 +140,13 @@ MaxMultiplier
 
 RegenMultiplier
   1.5  ->  2
+```
+
+### Gathering Skill
+
+```text
+Mode
+  Linear  ->  PartialRandom
 ```
 
 ### Gizmo
@@ -190,6 +174,9 @@ AncientBarkToWoodCount
 ```text
 ShowBodyWhenBlocking
   false  ->  true
+
+Modes
+  FirstPersonNoHelmet,ThirdPerson  ->  ThirdPerson,FirstPersonNoHelmet
 
 Hotkey
   H  ->  O
@@ -225,6 +212,13 @@ EnableMod
   true  ->  false
 ```
 
+### Nexus Update Check
+
+```text
+UpdatesPosition
+  {"x":40.0,"y":40.0}  ->  {"x":10.0,"y":360.0}
+```
+
 ### Paddle Power
 
 ```text
@@ -254,6 +248,13 @@ BaseSneakSpeed
 ```text
 BronzeMultiplier
   3  ->  2
+```
+
+### Useful Paths
+
+```text
+PavedRoad-movement
+  1.27  ->  1.25
 ```
 
 ### Useful Trophies
