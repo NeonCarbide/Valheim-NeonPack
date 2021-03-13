@@ -10,7 +10,7 @@ _Required:_
 
 - [Combat Evolved 0.3.3][combat-evolved]
 - [Fitness Skill 1.0.2][fitness-skill]
-- [Gathering Skill 1.2.0][gathering-skill]
+- [Gathering Skill 1.2.2][gathering-skill]
 - [Pickable Time Fix 1.0.1][pickable-time-fix]
 - [Planting Plus 1.4.5][planting-plus]
 - [Skill Injector 1.0.2][skill-injector]
@@ -24,7 +24,7 @@ _Optional:_
 - [Loki's First Person Valheim Mod 1.0.6][lokis-first-person]
 - [Loki's Immersion Mods 1.0.3][lokis-immersion]
 - [Nexus Update Check 1.1.0][nexus-update-check]
-- [Useful Paths 1.0.0][useful-paths]
+- [Useful Paths 1.0.4][useful-paths]
 
 I've included a template with an icon and an empty mod manifest.json in the [github for this modpack][github-extras] to help add compatibility for NexusMods mods with r2modmanager
 
@@ -33,6 +33,33 @@ Simply add both files to the mod's .zip, then modify the manifest.json with the 
 You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 
 ## Changelog
+
+```text
+Version 1.8.0
+
+[Thunderstore]
+
+  + Added Epic Loot 0.5.9
+  + Added Extended Item Data FrameWork 1.0.0
+
+  - Removed Hook Gen Patcher
+    - See Issue #1 on Github
+  - Removed Lead
+    - See Issue #1 on Github
+  - Removed Valheim Lib
+    - See Issue #1 on Github
+
+  * Updated Simple Recycling
+    - 0.0.11 -> 0.0.12
+
+[NexusMods]
+
+  * Updated Gathering Skill
+    - 1.2.0 -> 1.2.2
+  * Updated Useful Paths
+    - 1.0.0 -> 1.0.4
+
+```
 
 ```text
 Version 1.7.0
@@ -167,6 +194,7 @@ Version 1.3.1
 ```
 
 [github-extras]: https://github.com/NeonCarbide/Valheim-NeonPack/tree/main/extras
+[issue-1]: https://github.com/NeonCarbide/Valheim-NeonPack/issues/1
 
 <!-- Mod Links -->
 

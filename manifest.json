@@ -1,6 +1,6 @@
 {
   "name": "NeonPack",
-  "version_number": "1.7.0",
+  "version_number": "1.8.0",
   "website_url": "https://github.com/NeonCarbide/Valheim-NeonPack",
   "description": "A collection of mods from Thunderstore that I use in my singleplayer world",
   "dependencies": [
@@ -23,9 +23,6 @@
     "purpledxd-LocateMerchant-1.0.1",
     "MaxiMods-MultiCraft-0.2.6",
     "robclancy-Bigger_Chests-1.0.0",
-    "ValheimModding-ValheimLib-0.0.7",
-    "ValheimModding-HookGenPatcher-0.0.2",
-    "xiaoxiao921-Lead-0.0.2",
     "Khairex-Useful_Trophies-1.1.0",
     "Rolo-ExploreTogether-1.2.2",
     "nearbear-BetterAutoRun-1.0.3",
@@ -43,6 +40,8 @@
     "ceko-ValheimBrawler-0.0.4",
     "purpledxd-SkipIntro-1.0.1",
     "damnsneaker-QuickStack-0.6.3",
-    "virtuaCode-EmoteWheel-1.0.1"
+    "virtuaCode-EmoteWheel-1.0.1",
+    "RandyKnapp-ExtendedItemDataFramework-1.0.0",
+    "RandyKnapp-EpicLoot-0.5.9"
   ]
 }
