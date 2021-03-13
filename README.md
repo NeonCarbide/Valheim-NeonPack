@@ -58,7 +58,6 @@ Version 1.8.0
     - 1.2.0 -> 1.2.2
   * Updated Useful Paths
     - 1.0.0 -> 1.0.4
-
 ```
 
 ```text
