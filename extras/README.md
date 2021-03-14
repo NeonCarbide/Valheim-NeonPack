@@ -9,6 +9,7 @@ I've included all my configuration files for the mods that generate them, as wel
   - [Build Camera](#build-camera)
   - [Clock](#clock)
   - [Configurable Autosave](#configurable-autosave)
+  - [Emote Wheel](#emote-wheel)
   - [Equipment and Quick Slots](#equipment-and-quick-slots)
   - [Explore Together](#explore-together)
   - [Gizmo](#gizmo)
@@ -84,6 +85,19 @@ ClockFormat
 ```text
 AutosaveInterval
   1200  ->  1800
+```
+
+#### Emote Wheel
+
+```text
+Hotkey
+  t  ->  g
+
+TriggerOnRelease
+  true  ->  false
+
+TriggerOnClick
+  false  ->  true
 ```
 
 #### Equipment and Quick Slots

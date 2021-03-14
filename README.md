@@ -8,9 +8,10 @@ I also use the following mods from NexusMods
 
 _Required:_
 
-- [Combat Evolved 0.3.3][combat-evolved]
+- [Combat Evolved 0.4.0][combat-evolved]
 - [Fitness Skill 1.0.2][fitness-skill]
-- [Gathering Skill 1.2.2][gathering-skill]
+- [Gathering Skill 1.3.0][gathering-skill]
+- [Mod Config Enforcer 1.0.0][mod-config-enforcer]
 - [Pickable Time Fix 1.0.1][pickable-time-fix]
 - [Planting Plus 1.4.5][planting-plus]
 - [Skill Injector 1.0.2][skill-injector]
@@ -18,12 +19,12 @@ _Required:_
 
 _Optional:_
 
-- [Clock 0.8.4][clock]
+- [Clock 0.9.1][clock]
 - [Comfort Calculation Fix 1.0.0][comfort-calculation-fix]
 - [Configurable Autosave 1.1.0][configurable-autosave]
 - [Loki's First Person Valheim Mod 1.0.6][lokis-first-person]
 - [Loki's Immersion Mods 1.0.3][lokis-immersion]
-- [Nexus Update Check 1.1.0][nexus-update-check]
+- [Nexus Update Check 1.1.1][nexus-update-check]
 - [Useful Paths 1.0.4][useful-paths]
 
 I've included a template with an icon and an empty mod manifest.json in the [github for this modpack][github-extras] to help add compatibility for NexusMods mods with r2modmanager
@@ -33,6 +34,34 @@ Simply add both files to the mod's .zip, then modify the manifest.json with the 
 You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 
 ## Changelog
+
+```text
+Version 1.9.0
+
+[Thunderstore]
+
+  + Added Sated 1.0.0
+
+  * Updated Emote Wheel
+    - 1.0.1 -> 1.1.0
+  * Updated Epic Loot
+    - 0.5.9 -> 0.5.11
+  * Updated Simple Recycling
+    - 0.0.12 -> 0.0.13
+
+[NexusMods]
+
+  + Added Mod Config Enforcer 1.0.0
+
+  * Updated Clock
+    - 0.8.4 -> 0.9.1
+  * Updated Combat Evolved
+    - 0.3.3 -> 0.4.0
+  * Updated Gathering Skill
+    - 1.2.2 -> 1.3.0
+  * Updated Nexus Update Check
+    - 1.1.0 -> 1.1.1
+```
 
 ```text
 Version 1.8.0
@@ -205,6 +234,7 @@ Version 1.3.1
 [gathering-skill]: https://www.nexusmods.com/valheim/mods/342
 [lokis-first-person]: https://www.nexusmods.com/valheim/mods/100
 [lokis-immersion]: https://www.nexusmods.com/valheim/mods/139
+[mod-config-enforcer]: https://www.nexusmods.com/valheim/mods/460
 [nexus-update-check]: https://www.nexusmods.com/valheim/mods/102
 [pickable-time-fix]: https://www.nexusmods.com/valheim/mods/335
 [planting-plus]: https://www.nexusmods.com/valheim/mods/274

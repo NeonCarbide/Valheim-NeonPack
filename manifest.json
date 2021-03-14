@@ -1,6 +1,6 @@
 {
   "name": "NeonPack",
-  "version_number": "1.8.0",
+  "version_number": "1.9.0",
   "website_url": "https://github.com/NeonCarbide/Valheim-NeonPack",
   "description": "A collection of mods from Thunderstore that I use in my singleplayer world",
   "dependencies": [
@@ -32,7 +32,7 @@
     "bakaspaceman-Wet_And_Cold-1.0.2",
     "DeekyJay-DropJustEnough-1.0.1",
     "gittywithexcitement-Build_Camera-1.4.1",
-    "abearcodes-SimpleRecycling-0.0.11",
+    "abearcodes-SimpleRecycling-0.0.13",
     "mgway-PaddlePower-1.0.2",
     "Rolo-Gizmo-1.0.0",
     "RandyKnapp-Jam-1.0.2",
@@ -40,8 +40,9 @@
     "ceko-ValheimBrawler-0.0.4",
     "purpledxd-SkipIntro-1.0.1",
     "damnsneaker-QuickStack-0.6.3",
-    "virtuaCode-EmoteWheel-1.0.1",
+    "virtuaCode-EmoteWheel-1.1.0",
     "RandyKnapp-ExtendedItemDataFramework-1.0.0",
-    "RandyKnapp-EpicLoot-0.5.9"
+    "RandyKnapp-EpicLoot-0.5.11",
+    "Crystal-Sated-1.0.0"
   ]
 }
