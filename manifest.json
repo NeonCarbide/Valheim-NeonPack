@@ -1,6 +1,6 @@
 {
   "name": "NeonPack",
-  "version_number": "1.10.0",
+  "version_number": "1.10.1",
   "website_url": "https://github.com/NeonCarbide/Valheim-NeonPack",
   "description": "A collection of mods from Thunderstore that I use in my singleplayer world",
   "dependencies": [
@@ -43,7 +43,6 @@
     "RandyKnapp-ExtendedItemDataFramework-1.0.0",
     "RandyKnapp-EpicLoot-0.5.12",
     "Crystal-Sated-1.0.1",
-    "SpudTatterson-InvisArmor-1.3.0",
-    "Spud91584b8508e84879-InvisHelm-1.1.2"
+    "SpudTatterson-InvisArmor-1.3.0"
   ]
 }

@@ -38,6 +38,15 @@ You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 ## Changelog
 
 ```text
+Version 1.10.1
+
+[Thunderstore]
+
+  - Removed Invis Helm
+    - See Issue #2 on Github
+```
+
+```text
 Version 1.10.0
 
 [Thunderstore]
