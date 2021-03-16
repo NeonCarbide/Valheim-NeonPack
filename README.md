@@ -38,6 +38,15 @@ You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 ## Changelog
 
 ```text
+Version 1.10.2
+
+[Thunderstore]
+
+  * Updated Emote Wheel
+    - 1.1.0 -> 1.2.0
+```
+
+```text
 Version 1.10.1
 
 [Thunderstore]

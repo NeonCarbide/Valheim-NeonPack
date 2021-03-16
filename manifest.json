@@ -1,6 +1,6 @@
 {
   "name": "NeonPack",
-  "version_number": "1.10.1",
+  "version_number": "1.10.2",
   "website_url": "https://github.com/NeonCarbide/Valheim-NeonPack",
   "description": "A collection of mods from Thunderstore that I use in my singleplayer world",
   "dependencies": [
@@ -39,7 +39,7 @@
     "ceko-ValheimBrawler-0.0.4",
     "purpledxd-SkipIntro-1.0.1",
     "damnsneaker-QuickStack-0.6.3",
-    "virtuaCode-EmoteWheel-1.1.0",
+    "virtuaCode-EmoteWheel-1.2.0",
     "RandyKnapp-ExtendedItemDataFramework-1.0.0",
     "RandyKnapp-EpicLoot-0.5.12",
     "Crystal-Sated-1.0.1",
