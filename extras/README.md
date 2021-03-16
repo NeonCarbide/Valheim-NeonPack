@@ -14,7 +14,6 @@ I've included all my configuration files for the mods that generate them, as wel
   - [Explore Together](#explore-together)
   - [Gizmo](#gizmo)
   - [Invis Armor](#invis-armor)
-  - [Invis Helm](#invis-helm)
   - [Loki's First Person Valheim Mod](#lokis-first-person-valheim-mod)
   - [Loki's Immersion Mods](#lokis-immersion-mods)
     - [Hide Crosshair](#hide-crosshair)
@@ -149,14 +148,6 @@ General
 
   Hide Chestplate
     true  ->  false
-```
-
-#### Invis Helm
-
-```text
-General
-  Hide Key
-    H  ->  Keypad3
 ```
 
 #### Loki's First Person Valheim Mod
