@@ -9,9 +9,10 @@ I also use the following mods from NexusMods
 _Required:_
 
 - [Combat Evolved 0.4.0][combat-evolved]
+- [Cooking Skill 1.0.1][cooking-skill]
 - [Fitness Skill 1.0.2][fitness-skill]
 - [Gathering Skill 1.3.0][gathering-skill]
-- [Mod Config Enforcer 1.0.0][mod-config-enforcer]
+- [Mod Config Enforcer 1.1.0][mod-config-enforcer]
 - [Pickable Time Fix 1.0.1][pickable-time-fix]
 - [Planting Plus 1.4.5][planting-plus]
 - [Skill Injector 1.0.2][skill-injector]
@@ -19,8 +20,9 @@ _Required:_
 
 _Optional:_
 
-- [Clock 0.9.1][clock]
-- [Comfort Calculation Fix 1.0.0][comfort-calculation-fix]
+- [Better Pickup Notifications 1.0.0][better-pickup-notifications]
+- [Clock 1.1.1][clock]
+- [Comfort Calculation Fix 1.2.1][comfort-calculation-fix]
 - [Configurable Autosave 1.1.0][configurable-autosave]
 - [Loki's First Person Valheim Mod 1.0.6][lokis-first-person]
 - [Loki's Immersion Mods 1.0.3][lokis-immersion]
@@ -34,6 +36,35 @@ Simply add both files to the mod's .zip, then modify the manifest.json with the 
 You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 
 ## Changelog
+
+```text
+Version 1.10.0
+
+[Thunderstore]
+
+  + Added Invis Armor 1.3.0
+  + Added Invis Helm 1.1.2
+
+  - Removed It's Just Wood
+    - Never made use of the mod
+
+  * Updated Epic Loot
+    - 0.5.11 -> 0.5.12
+  * Updated Sated
+    - 1.0.0 -> 1.0.1
+
+[NexusMods]
+
+  + Added Better Pickup Notifications 1.0.0
+  + Added Cooking Skill 1.0.1
+
+  * Updated Clock
+    - 0.9.1 -> 1.1.1
+  * Updated Comfort Calculation Fix
+    - 1.0.0 -> 1.2.1
+  * Updated Mod Config Enforcer
+    - 1.0.0 -> 1.1.0
+```
 
 ```text
 Version 1.9.0
@@ -226,10 +257,12 @@ Version 1.3.1
 
 <!-- Mod Links -->
 
+[better-pickup-notifications]: https://www.nexusmods.com/valheim/mods/528
 [clock]: https://www.nexusmods.com/valheim/mods/85
 [combat-evolved]: https://www.nexusmods.com/valheim/mods/301
 [comfort-calculation-fix]: https://www.nexusmods.com/valheim/mods/427
 [configurable-autosave]: https://www.nexusmods.com/valheim/mods/199
+[cooking-skill]: https://www.nexusmods.com/valheim/mods/483
 [fitness-skill]: https://www.nexusmods.com/valheim/mods/388
 [gathering-skill]: https://www.nexusmods.com/valheim/mods/342
 [lokis-first-person]: https://www.nexusmods.com/valheim/mods/100
