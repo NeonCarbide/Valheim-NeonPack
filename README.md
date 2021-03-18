@@ -9,20 +9,17 @@ I also use the following mods from NexusMods
 _Required:_
 
 - [Combat Evolved 0.4.0][combat-evolved]
-- [Cooking Skill 1.0.1][cooking-skill]
+- [Cooking Skill 1.1.1][cooking-skill]
 - [Fitness Skill 1.0.2][fitness-skill]
-- [Gathering Skill 1.3.0][gathering-skill]
+- [Minimap Plus 2.1.1][minimap-plus]
 - [Mod Config Enforcer 1.1.0][mod-config-enforcer]
-- [Pickable Time Fix 1.0.1][pickable-time-fix]
 - [Planting Plus 1.4.5][planting-plus]
-- [Skill Injector 1.0.2][skill-injector]
 - [Sleep Without Spawn 0.1.1][sleep-without-spawn]
 
 _Optional:_
 
 - [Better Pickup Notifications 1.0.0][better-pickup-notifications]
 - [Clock 1.1.1][clock]
-- [Comfort Calculation Fix 1.2.1][comfort-calculation-fix]
 - [Configurable Autosave 1.1.0][configurable-autosave]
 - [Loki's First Person Valheim Mod 1.0.6][lokis-first-person]
 - [Loki's Immersion Mods 1.0.3][lokis-immersion]
@@ -36,6 +33,57 @@ Simply add both files to the mod's .zip, then modify the manifest.json with the 
 You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 
 ## Changelog
+
+```text
+Version 1.11.0
+
+# How to Upgrade Equipment and Quick Slots 1.x to 2.0.0 (as written by mod author)
+  1. Start the game with the old mod installed
+  2. Find a safe place for your character
+  3. Unequip all equipment and move everything out of the quick slots
+  4. Quit the game using the menu
+  5. Remove the old 'Equipment and Quick Slots' dll and install the new version
+  6. Run the game again
+  7. You should see your new empty slots in the inventory and be able to re-equip your items
+
+[Thunderstore]
+
+  + Added Comfort Calculation Tweaks 1.2.2
+  + Added Gathering Skill 2.0.3
+  + Added Skill Injector 1.1.1
+
+  - Removed Bigger Boat Map Explore Radius
+    - Replaced by Minimap Plus
+  - Removed Explore Together
+    - Replaced by Minimap Plus
+
+  * Updated Better UI
+    - 1.5.1 -> 1.6.0
+  * Updated Equipment and Quick Slots
+    - 1.0.5 -> 2.0.0
+  * Updated Epic Loot
+    - 0.5.12 -> 0.5.13
+  * Updated Sated
+    - 1.0.1 -> 1.0.2
+
+[NexusMods]
+
+  + Added Minimap Plus 2.1.1
+
+  - Removed Comfort Calculation Fix
+    - Replaced by Comfort Calculation Tweaks
+  - Removed Gathering Skill
+    - Replaced by Thunderstore version of mod
+  - Removed Pickable Time Fix
+    - Functionality added by Gathering Skill
+  - Removed Skill Injector
+    - Replaced by Thunderstore version of mod
+
+  * Updated Cooking Skill
+    - 1.0.1 -> 1.1.1
+  * Updated Mod Config Enforcer
+    - 1.1.0 -> 1.2.0
+```
 
 ```text
 Version 1.10.2
@@ -278,18 +326,15 @@ Version 1.3.1
 [better-pickup-notifications]: https://www.nexusmods.com/valheim/mods/528
 [clock]: https://www.nexusmods.com/valheim/mods/85
 [combat-evolved]: https://www.nexusmods.com/valheim/mods/301
-[comfort-calculation-fix]: https://www.nexusmods.com/valheim/mods/427
 [configurable-autosave]: https://www.nexusmods.com/valheim/mods/199
 [cooking-skill]: https://www.nexusmods.com/valheim/mods/483
 [fitness-skill]: https://www.nexusmods.com/valheim/mods/388
 [gathering-skill]: https://www.nexusmods.com/valheim/mods/342
 [lokis-first-person]: https://www.nexusmods.com/valheim/mods/100
 [lokis-immersion]: https://www.nexusmods.com/valheim/mods/139
+[minimap-plus]: https://www.nexusmods.com/valheim/mods/242
 [mod-config-enforcer]: https://www.nexusmods.com/valheim/mods/460
 [nexus-update-check]: https://www.nexusmods.com/valheim/mods/102
-[pickable-time-fix]: https://www.nexusmods.com/valheim/mods/335
 [planting-plus]: https://www.nexusmods.com/valheim/mods/274
-[precise-rotation]: https://www.nexusmods.com/valheim/mods/202
-[skill-injector]: https://www.nexusmods.com/valheim/mods/341
 [sleep-without-spawn]: https://www.nexusmods.com/valheim/mods/261
 [useful-paths]: https://www.nexusmods.com/valheim/mods/438

@@ -11,7 +11,6 @@ I've included all my configuration files for the mods that generate them, as wel
   - [Configurable Autosave](#configurable-autosave)
   - [Emote Wheel](#emote-wheel)
   - [Equipment and Quick Slots](#equipment-and-quick-slots)
-  - [Explore Together](#explore-together)
   - [Gizmo](#gizmo)
   - [Invis Armor](#invis-armor)
   - [Loki's First Person Valheim Mod](#lokis-first-person-valheim-mod)
@@ -23,7 +22,6 @@ I've included all my configuration files for the mods that generate them, as wel
   - [Nexus Update Check](#nexus-update-check)
 - [Required](#required)
   - [Better UI](#better-ui)
-  - [Bigger Boat Map Explore Radius](#bigger-boat-map-explore-radius)
   - [Build Helper](#build-helper)
   - [Data Rate Modifier](#data-rate-modifier)
     - [Client](#client)
@@ -31,6 +29,7 @@ I've included all my configuration files for the mods that generate them, as wel
   - [Epic Loot](#epic-loot)
   - [Fitness Skill](#fitness-skill)
   - [Gathering Skill](#gathering-skill)
+  - [Minimap Plus](#minimap-plus)
   - [Paddle Power](#paddle-power)
   - [Planting Plus](#planting-plus)
   - [Skillful](#skillful)
@@ -117,18 +116,6 @@ Hotkeys
 
   Quick slot hotkey 3
     b  ->  c
-```
-
-#### Explore Together
-
-```text
-Minimap
-  CoordsInMinimap
-    true  ->  false
-
-Pins
-  SharedPinOverlapDistance
-    1  ->  3
 ```
 
 #### Gizmo
@@ -224,14 +211,6 @@ UI
     2  ->  0
 ```
 
-#### Bigger Boat Map Explore Radius
-
-```text
-General
-  BoatExploreRadius
-    500  ->  300
-```
-
 #### Build Helper
 
 ```text
@@ -313,6 +292,13 @@ Stamina
 Drops
   Mode
     Linear  ->  PartialRandom
+```
+
+#### Minimap Plus
+
+```text
+ExploringSkillEnabled
+  False  ->  True
 ```
 
 #### Paddle Power
