@@ -35,6 +35,15 @@ You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 ## Changelog
 
 ```text
+Version 1.11.2
+
+[Thunderstore]
+
+  * Updated Equipment and Quick Slots
+    - 2.0.1 -> 2.0.2
+```
+
+```text
 Version 1.11.1
 
 [Thunderstore]

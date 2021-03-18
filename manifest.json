@@ -1,6 +1,6 @@
 {
   "name": "NeonPack",
-  "version_number": "1.11.1",
+  "version_number": "1.11.2",
   "website_url": "https://github.com/NeonCarbide/Valheim-NeonPack",
   "description": "A collection of mods from Thunderstore that I use in my singleplayer world. Be sure to check the changelog for any changes.",
   "dependencies": [
@@ -17,7 +17,7 @@
     "chase000-UnfrightenTamedAnimals-0.1.0",
     "DeekyJay-SplitStackTextInput-1.1.0",
     "LVH-IT-FasterTeleportation-0.3.1",
-    "RandyKnapp-EquipmentAndQuickSlots-2.0.1",
+    "RandyKnapp-EquipmentAndQuickSlots-2.0.2",
     "purpledxd-LocateMerchant-1.0.1",
     "MaxiMods-MultiCraft-0.2.6",
     "robclancy-Bigger_Chests-1.0.0",
