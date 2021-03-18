@@ -35,6 +35,17 @@ You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 ## Changelog
 
 ```text
+Version 1.11.1
+
+[Thunderstore]
+
+  * Updated Equipment and Quick Slots
+    - 2.0.0 -> 2.0.1
+  * Updated Prevent Accidental Interaction
+    - 1.0.3 -> 1.0.4
+```
+
+```text
 Version 1.11.0
 
 # How to Upgrade Equipment and Quick Slots 1.x to 2.0.0 (as written by mod author)
