@@ -8,23 +8,27 @@ I also use the following mods from NexusMods
 
 _Required:_
 
+- [Better Trader 1.0.6][better-trader]
 - [Combat Evolved 0.4.0][combat-evolved]
 - [Cooking Skill 1.1.1][cooking-skill]
+- [Crush Antlers 0.1.0][crush-antlers]
+- [Fish Food 1.0.0][fish-food]
 - [Fitness Skill 1.0.2][fitness-skill]
+- [Jotunn Lib 0.1.1][jotunn-lib]
 - [Minimap Plus 2.1.1][minimap-plus]
-- [Mod Config Enforcer 1.1.0][mod-config-enforcer]
+- [Mod Config Enforcer 1.3.0][mod-config-enforcer]
 - [Planting Plus 1.4.5][planting-plus]
 - [Sleep Without Spawn 0.1.1][sleep-without-spawn]
+- [Useful Paths 1.0.5][useful-paths]
 
 _Optional:_
 
-- [Better Pickup Notifications 1.0.0][better-pickup-notifications]
+- [Better Pickup Notifications 1.2.0][better-pickup-notifications]
 - [Clock 1.1.1][clock]
 - [Configurable Autosave 1.1.0][configurable-autosave]
 - [Loki's First Person Valheim Mod 1.0.6][lokis-first-person]
 - [Loki's Immersion Mods 1.0.3][lokis-immersion]
 - [Nexus Update Check 1.1.1][nexus-update-check]
-- [Useful Paths 1.0.4][useful-paths]
 
 I've included a template with an icon and an empty mod manifest.json in the [github for this modpack][github-extras] to help add compatibility for NexusMods mods with r2modmanager
 
@@ -33,6 +37,35 @@ Simply add both files to the mod's .zip, then modify the manifest.json with the 
 You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 
 ## Changelog
+
+```text
+Version 1.12.0
+
+[Thunderstore]
+
+  * Updated Better UI
+    - 1.6.0 -> 1.6.1
+  * Updated Prevent Accidental Interaction
+    - 1.0.4 -> 1.0.6
+  * Updated Sated
+    - 1.0.2 -> 1.1.1
+
+[NexusMods]
+
+  + Added Better Trader 1.0.6
+  + Added Crush Antlers 0.1.0
+  + Added Jotunn Lib 0.1.1
+  + Added Fish Food 1.0.0
+
+  * Updated Better Pickup Notifications
+    - 1.0.0 -> 1.2.0
+  * Updated Mod Config Enforcer
+    - 1.2.0 -> 1.3.0
+  * Updated Useful Paths
+    - 1.0.4 -> 1.0.5
+
+  # Made Useful Paths a required mod instead of an optional one
+```
 
 ```text
 Version 1.11.2
@@ -344,12 +377,16 @@ Version 1.3.1
 <!-- Mod Links -->
 
 [better-pickup-notifications]: https://www.nexusmods.com/valheim/mods/528
+[better-trader]: https://www.nexusmods.com/valheim/mods/433
 [clock]: https://www.nexusmods.com/valheim/mods/85
 [combat-evolved]: https://www.nexusmods.com/valheim/mods/301
 [configurable-autosave]: https://www.nexusmods.com/valheim/mods/199
 [cooking-skill]: https://www.nexusmods.com/valheim/mods/483
+[crush-antlers]: https://www.nexusmods.com/valheim/mods/590
+[fish-food]: https://www.nexusmods.com/valheim/mods/531
 [fitness-skill]: https://www.nexusmods.com/valheim/mods/388
 [gathering-skill]: https://www.nexusmods.com/valheim/mods/342
+[jotunn-lib]: https://www.nexusmods.com/valheim/mods/507
 [lokis-first-person]: https://www.nexusmods.com/valheim/mods/100
 [lokis-immersion]: https://www.nexusmods.com/valheim/mods/139
 [minimap-plus]: https://www.nexusmods.com/valheim/mods/242

@@ -20,7 +20,9 @@ I've included all my configuration files for the mods that generate them, as wel
     - [Minimap](#minimap)
     - [No Health Bars](#no-health-bars)
   - [Nexus Update Check](#nexus-update-check)
+  - [Prevent Accidental Interaction](#prevent-accidental-interaction)
 - [Required](#required)
+  - [Better Trader](#better-trader)
   - [Better UI](#better-ui)
   - [Build Helper](#build-helper)
   - [Data Rate Modifier](#data-rate-modifier)
@@ -197,7 +199,35 @@ UI
     {"x":40.0,"y":40.0}  ->  {"x":10.0,"y":360.0}
 ```
 
+#### Prevent Accidental Interaction
+
+```text
+General
+  InteractionBlocklist
+    ItemStand,Sign,TeleportWorld  ->  ItemStand,Sign,TeleportWorld,ValheimStands.Unity.ArmorStand
+
+  BlockInteractionMethod
+    crouch  ->  keyheld
+
+  BlockInteractionKey
+    left shift  ->  left alt
+```
+
 ### Required
+
+#### Better Trader
+
+```text
+General
+  Wait For Discovery
+    false  ->  true
+
+  Trader Price Fluctuation
+    false  ->  true
+
+  Trader Price Fluctuation Frequency
+    1  ->  3
+```
 
 #### Better UI
 
