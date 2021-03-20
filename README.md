@@ -15,7 +15,6 @@ _Required:_
 - [Fish Food 1.0.0][fish-food]
 - [Fitness Skill 1.0.2][fitness-skill]
 - [Jotunn Lib 0.1.1][jotunn-lib]
-- [Minimap Plus 2.1.1][minimap-plus]
 - [Mod Config Enforcer 1.3.0][mod-config-enforcer]
 - [Planting Plus 1.4.5][planting-plus]
 - [Sleep Without Spawn 0.1.1][sleep-without-spawn]
@@ -37,6 +36,28 @@ Simply add both files to the mod's .zip, then modify the manifest.json with the 
 You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 
 ## Changelog
+
+```text
+Version 1.13.0
+
+[Thunderstore]
+
+  + Added Explore Together 1.3.0
+  + Added Pathfinder 1.0.0
+
+  - Removed Invis Armor
+    - Ended up not using the mod
+
+  * Updated Epic Loot
+    - 0.5.13 -> 0.5.16
+  * Updated Prevent Accidental Interaction
+    - 1.0.6 -> 1.0.7
+
+[NexusMods]
+
+  - Removed Minimap Plus
+    - Replaced by Explore Together and Pathfinder
+```
 
 ```text
 Version 1.12.0
