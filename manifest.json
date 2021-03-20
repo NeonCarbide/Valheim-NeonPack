@@ -1,6 +1,6 @@
 {
   "name": "NeonPack",
-  "version_number": "1.13.0",
+  "version_number": "2.0.0",
   "website_url": "https://github.com/NeonCarbide/Valheim-NeonPack",
   "description": "A collection of mods from Thunderstore that I use in my singleplayer world. Be sure to check the changelog for any changes.",
   "dependencies": [
@@ -45,6 +45,7 @@
     "pipakin-SkillInjector-1.1.1",
     "pipakin-GatheringSkill-2.0.3",
     "Rolo-ExploreTogether-1.3.0",
-    "Crystal-Pathfinder-1.0.0"
+    "Crystal-Pathfinder-1.0.0",
+    "Nextek-SpeedyPaths-1.0.3"
   ]
 }

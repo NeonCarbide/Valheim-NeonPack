@@ -2,7 +2,7 @@
 
 A collection of mods from Thunderstore that I use in my singleplayer world
 
-I've included the configuration files for all the mods that have them in the [github for this modpack][github-extras]
+I've included a list of all the config changes I've made in the [github for this modpack][github-extras]
 
 I also use the following mods from NexusMods
 
@@ -10,15 +10,13 @@ _Required:_
 
 - [Better Trader 1.0.6][better-trader]
 - [Combat Evolved 0.4.0][combat-evolved]
-- [Cooking Skill 1.1.1][cooking-skill]
+- [Cooking Skill 1.1.2][cooking-skill]
 - [Crush Antlers 0.1.0][crush-antlers]
 - [Fish Food 1.0.0][fish-food]
 - [Fitness Skill 1.0.2][fitness-skill]
-- [Jotunn Lib 0.1.1][jotunn-lib]
 - [Mod Config Enforcer 1.3.0][mod-config-enforcer]
 - [Planting Plus 1.4.5][planting-plus]
 - [Sleep Without Spawn 0.1.1][sleep-without-spawn]
-- [Useful Paths 1.0.5][useful-paths]
 
 _Optional:_
 
@@ -36,6 +34,24 @@ Simply add both files to the mod's .zip, then modify the manifest.json with the 
 You can then do a simple drag'n'drop installation in r2modmanager with the .zip
 
 ## Changelog
+
+```text
+Version 2.0.0
+
+# Configs now included with modpack
+
+[Thunderstore]
+
+  + Added Speedy Paths 1.0.3
+
+[NexusMods]
+
+  * Updated Cooking Skill
+    - 1.1.1 -> 1.1.2
+
+  - Removed Useful Paths
+    - Replaced by Speedy Paths
+```
 
 ```text
 Version 1.13.0

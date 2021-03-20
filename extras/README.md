@@ -1,430 +1,408 @@
 # Valheim-NeonPack - Extras <!-- omit in toc -->
 
-I've included all my configuration files for the mods that generate them, as well as my template files for adding r2modmanager compatibility to NexusMods mods
+All the changes I've made to the configuration files for the mods included in [NeonPack][neonpack]
 
-## Config Changes <!-- omit in toc -->
+I've also included my template files for adding r2modmanager compatibility to NexusMods mods in the [template folder][templates]
 
-- [Optional](#optional)
-  - [Better Auto Run](#better-auto-run)
-  - [Build Camera](#build-camera)
-  - [Clock](#clock)
-  - [Configurable Autosave](#configurable-autosave)
-  - [Emote Wheel](#emote-wheel)
-  - [Equipment and Quick Slots](#equipment-and-quick-slots)
-  - [Gizmo](#gizmo)
-  - [Invis Armor](#invis-armor)
-  - [Loki's First Person Valheim Mod](#lokis-first-person-valheim-mod)
-  - [Loki's Immersion Mods](#lokis-immersion-mods)
-    - [Hide Crosshair](#hide-crosshair)
-    - [Meditation](#meditation)
-    - [Minimap](#minimap)
-    - [No Health Bars](#no-health-bars)
-  - [Nexus Update Check](#nexus-update-check)
-  - [Prevent Accidental Interaction](#prevent-accidental-interaction)
-- [Required](#required)
-  - [Better Trader](#better-trader)
-  - [Better UI](#better-ui)
-  - [Build Helper](#build-helper)
-  - [Data Rate Modifier](#data-rate-modifier)
-    - [Client](#client)
-    - [Server](#server)
-  - [Epic Loot](#epic-loot)
-  - [Fitness Skill](#fitness-skill)
-  - [Gathering Skill](#gathering-skill)
-  - [Minimap Plus](#minimap-plus)
-  - [Paddle Power](#paddle-power)
-  - [Planting Plus](#planting-plus)
-  - [Skillful](#skillful)
-  - [Triple Bronze](#triple-bronze)
-  - [Useful Paths](#useful-paths)
-  - [Useful Trophies](#useful-trophies)
-  - [Wet and Cold](#wet-and-cold)
+## Included Config Changes <!-- omit in toc -->
+
+- [Better Auto Run](#better-auto-run)
+- [Better Trader](#better-trader)
+- [Better UI](#better-ui)
+- [Build Camera](#build-camera)
+- [Build Helper](#build-helper)
+- [Clock](#clock)
+- [Configurable Autosave](#configurable-autosave)
+- [Data Rate Modifier](#data-rate-modifier)
+  - [Client - Included](#client---included)
+  - [Server](#server)
+- [Epic Loot](#epic-loot)
+- [Explore Together](#explore-together)
+- [Fitness Skill](#fitness-skill)
+- [Gathering Skill](#gathering-skill)
+- [Gizmo](#gizmo)
+- [Loki's First Person Valheim Mod](#lokis-first-person-valheim-mod)
+- [Loki's Immersion Mods](#lokis-immersion-mods)
+  - [Hide Crosshair](#hide-crosshair)
+  - [Meditation](#meditation)
+  - [Minimap](#minimap)
+  - [No Health Bars](#no-health-bars)
+- [Nexus Update Check](#nexus-update-check)
+- [Paddle Power](#paddle-power)
+- [Planting Plus](#planting-plus)
+- [Prevent Accidental Interaction](#prevent-accidental-interaction)
+- [Skillful](#skillful)
+- [Triple Bronze](#triple-bronze)
+- [Useful Trophies](#useful-trophies)
+- [Wet and Cold](#wet-and-cold)
 
 ---
 
-### Optional
+### Better Auto Run
 
-#### Better Auto Run
-
-```text
 General
-  sprintUntil
-    0.5  ->  0.3
-```
-
-#### Build Camera
 
 ```text
+sprintUntil
+  0.5  ->  0.3
+```
+
+### Better Trader
+
 General
-  Camera_Range_Multiplier
-    1  ->  2
-
-Hotkeys
-  Toggle_build_mode
-    B  ->  Insert
-```
-
-#### Clock
 
 ```text
-General
-  ClockLocationString
-    50%,3%  ->  75%,3%
+Wait For Discovery
+  false  ->  true
 
-  ClockUseShadow
-    false  ->  true
+Trader Price Fluctuation
+  false  ->  true
 
-  ClockFontName
-    AveriaSerifLibre-Bold  ->  Norsebold
-
-  ClockFontColor
-    FFFFFFFF  ->  FFFFFFB3
-
-  ClockShadowColor
-    000000FF  ->  000000B3
-
-  ClockFormat
-    HH:mm  ->  fuzzy
+Trader Price Fluctuation Frequency
+  1  ->  3
 ```
 
-#### Configurable Autosave
+### Better UI
+
+HUD
 
 ```text
-General
-  AutosaveInterval
-    1200  ->  1800
+enemyLevelStyle
+  1  ->  2
 ```
 
-#### Emote Wheel
-
-```text
-General
-  Hotkey
-    t  ->  g
-
-  TriggerOnRelease
-    true  ->  false
-
-  TriggerOnClick
-    false  ->  true
-```
-
-#### Equipment and Quick Slots
-
-```text
-Hotkeys
-  Quick slot hotkey 2
-    v  ->  x
-
-  Quick slot hotkey 3
-    b  ->  c
-```
-
-#### Gizmo
-
-```text
-General
-  resetKey
-    V  ->  N
-```
-
-#### Invis Armor
-
-```text
-General
-  Hide armor
-    H  ->  Keypad6
-
-  Hide Chestplate
-    true  ->  false
-```
-
-#### Loki's First Person Valheim Mod
-
-```text
-Body
-  ShowBodyWhenBlocking
-    false  ->  true
-
-  Modes
-    FirstPersonNoHelmet,ThirdPerson  ->  ThirdPerson,FirstPersonNoHelmet
-
-Controls
-  Hotkey
-    H  ->  Keypad7
-```
-
-#### Loki's Immersion Mods
-
-##### Hide Crosshair
-
-```text
-Settings
-  Hotkey
-    P + LeftControl  ->  Keypad8
-```
-
-##### Meditation
-
-```text
-Settings
-  EnableMod
-    true  ->  false
-
-  ShownPinTypes
-    Boss  ->  Bed,Boss,Death
-```
-
-##### Minimap
-
-```text
-Controls
-  Hotkey
-    O + LeftControl  ->  Keypad9
-```
-
-##### No Health Bars
-
-```text
-Settings
-  EnableMod
-    true  ->  false
-```
-
-#### Nexus Update Check
-
-```text
-UI
-  UpdatesPosition
-    {"x":40.0,"y":40.0}  ->  {"x":10.0,"y":360.0}
-```
-
-#### Prevent Accidental Interaction
-
-```text
-General
-  InteractionBlocklist
-    ItemStand,Sign,TeleportWorld  ->  ItemStand,Sign,TeleportWorld,ValheimStands.Unity.ArmorStand
-
-  BlockInteractionMethod
-    crouch  ->  keyheld
-
-  BlockInteractionKey
-    left shift  ->  left alt
-```
-
-### Required
-
-#### Better Trader
-
-```text
-General
-  Wait For Discovery
-    false  ->  true
-
-  Trader Price Fluctuation
-    false  ->  true
-
-  Trader Price Fluctuation Frequency
-    1  ->  3
-```
-
-#### Better UI
-
-```text
 Item
-  showCustomTooltips
-    true  ->  false
-
-UI
-  timeLeftStylePlant
-    2  ->  0
-```
-
-#### Build Helper
 
 ```text
+showCustomTooltips
+  true  ->  false
+```
+
+### Build Camera
+
+General
+
+```text
+Camera_Range_Multiplier
+  1  ->  2
+```
+
+Hotkeys
+
+```text
+Toggle_build_mode
+  B  ->  Insert
+```
+
+### Build Helper
+
 BuildHelper
-  WorkbenchRadius
-    150  ->  20
-
-  BuildDistance
-    10  ->  5
-
-  AreaRepairRadius
-    7.5  ->  3
-```
-
-#### Data Rate Modifier
-
-##### Client
 
 ```text
+WorkbenchRadius
+  150  ->  20
+
+BuildDistance
+  10  ->  7.5
+
+AreaRepairRadius
+  7.5  ->  3
+```
+
+### Clock
+
+General
+
+```text
+ClockLocationString
+  50%,3%  ->  75%,3%
+
+ClockUseShadow
+  false  ->  true
+
+ClockFontName
+  AveriaSerifLibre-Bold  ->  Norsebold
+
+ClockFontColor
+  FFFFFFFF  ->  FFFFFFB3
+
+ClockShadowColor
+  000000FF  ->  000000B3
+
+ClockFormat
+  HH:mm  ->  fuzzy
+```
+
+### Configurable Autosave
+
+General
+
+```text
+AutosaveInterval
+  1200  ->  1800
+```
+
+### Data Rate Modifier
+
+#### Client - Included
+
 DataRate
-  Rate
-    10  ->  2
-```
-
-##### Server
 
 ```text
+Rate
+  10  ->  2
+```
+
+#### Server
+
 DataRate
-  Rate
-    10  ->  x
-
-  x = 5 * [number of players]
-```
-
-#### Epic Loot
 
 ```text
+Rate
+  10  ->  x
+
+x = 5 * [number of players]
+```
+
+### Epic Loot
+
 Item Colors
-  Magic Rarity Color
-    Blue  ->  Teal
 
-  Magic Crafting Material Icon Index
-    5  ->  4
+```text
+Magic Rarity Color
+  Blue  ->  Teal
 
-  Rare Rarity Color
-    Yellow  ->  Blue
+Magic Crafting Material Icon Index
+  5  ->  4
 
-  Rare Crafting Material Icon Index
-    2  ->  5
+Rare Rarity Color
+  Yellow  ->  Blue
 
-  Legendary Rarity Color
-    Teal  ->  Yellow
+Rare Crafting Material Icon Index
+  2  ->  5
 
-  Legendary Crafting Material Icon Index
-    4  ->  2
+Legendary Rarity Color
+  Teal  ->  Yellow
+
+Legendary Crafting Material Icon Index
+  4  ->  2
+```
 
 Rarity
-  Magic Rarity Display Name
-    Magic  ->  Uncommon
-
-  Legendary Rarity Display Name
-    Legendary  ->  Artifact
-```
-
-#### Fitness Skill
 
 ```text
+Magic Rarity Display Name
+  Magic  ->  Uncommon
+
+Legendary Rarity Display Name
+  Legendary  ->  Artifact
+```
+
+### Explore Together
+
+Minimap
+
+```text
+CoordsInMinimap
+  true  ->  false
+```
+
+Pins
+
+```text
+ShareDeathMarkers
+  false  ->  true
+
+SharedPinOverlapDistance
+  1  ->  5
+```
+
+### Fitness Skill
+
 Stamina
-  MaxMultiplier
-    1.5  ->  2
-
-  RegenMultiplier
-    1.5  ->  2
-```
-
-#### Gathering Skill
 
 ```text
+MaxMultiplier
+  1.5  ->  2
+
+RegenMultiplier
+  1.5  ->  2
+```
+
+### Gathering Skill
+
 Drops
-  Mode
-    Linear  ->  PartialRandom
-```
-
-#### Minimap Plus
 
 ```text
-ExploringSkillEnabled
-  False  ->  True
+Mode
+  Linear  ->  PartialRandom
 ```
 
-#### Paddle Power
+TimeEstimate
 
 ```text
+Enabled
+  true  ->  false
+```
+
+### Gizmo
+
 General
-  counting_method
-    ATTACHED  ->  SEATED
-```
-
-#### Planting Plus
 
 ```text
+resetKey
+  V  ->  N
+```
+
+### Loki's First Person Valheim Mod
+
+Body
+
+```text
+ShowBodyWhenBlocking
+  false  ->  true
+
+Modes
+  FirstPersonNoHelmet,ThirdPerson  ->  ThirdPerson,FirstPersonNoHelmet
+```
+
+Controls
+
+```text
+Hotkey
+  H  ->  Keypad7
+```
+
+### Loki's Immersion Mods
+
+#### Hide Crosshair
+
+Settings
+
+```text
+HideCrosshair
+  true  ->  false
+
+Hotkey
+  P + LeftControl  ->  Keypad8
+```
+
+#### Meditation
+
+Settings
+
+```text
+EnableMod
+  true  ->  false
+
+ShownPinTypes
+  Boss  ->  Bed,Boss,Death
+```
+
+#### Minimap
+
+Controls
+
+```text
+Hotkey
+  O + LeftControl  ->  Keypad9
+```
+
+#### No Health Bars
+
+Settings
+
+```text
+EnableMod
+  true  ->  false
+```
+
+### Nexus Update Check
+
+UI
+
+```text
+UpdatesPosition
+  {"x":40.0,"y":40.0}  ->  {"x":10.0,"y":360.0}
+```
+
+### Paddle Power
+
 General
-  RequireCultivation
-    false  ->  true
-
-  AlternateIcons
-    false  ->  true
-```
-
-#### Skillful
 
 ```text
+counting_method
+  ATTACHED  ->  SEATED
+```
+
+### Planting Plus
+
+General
+
+```text
+RequireCultivation
+  false  ->  true
+
+AlternateIcons
+  false  ->  true
+```
+
+### Prevent Accidental Interaction
+
+General
+
+```text
+InteractionBlocklist
+  ItemStand,Sign,TeleportWorld  ->  ItemStand,Sign,TeleportWorld,ValheimStands.Unity.ArmorStand
+
+BlockInteractionMethod
+  crouch  ->  keyheld
+
+BlockInteractionKey
+  left shift  ->  left alt
+```
+
+### Skillful
+
 Skillful
-  BaseSneakSpeed
-    3  ->  2
-```
-
-#### Triple Bronze
 
 ```text
+BaseSneakSpeed
+  3  ->  2
+```
+
+### Triple Bronze
+
 TripleBronze
-  BronzeMultiplier
-    3  ->  2
-```
-
-#### Useful Paths
 
 ```text
-HardWood
-  movement
-    1.35  ->  1.3
-
-Iron
-  movement
-    1.35  ->  1.3
-
-LevelGround
-  movement
-    1.1  ->  1.15
-
-  staminadrain
-    0.9  ->  0.85
-
-Path
-  movement
-    1.25  ->  1.15
-
-  staminadrain
-    0.83  ->  0.85
-
-PavedRoad
-  movement
-    1.35  ->  1.3
-
-Stone
-  movement
-    1.35  ->  1.3
-
-Wood
-  movement
-    1.35  ->  1.15
-
-  staminadrain
-    0.7  ->  0.85
+BronzeMultiplier
+  3  ->  2
 ```
 
-#### Useful Trophies
+### Useful Trophies
 
-```text
 BossConsumption
-  BossesResetGuardianCooldown
-    true  ->  false
-
-  BossesApplyGuardianPower
-    false  ->  true
-```
-
-#### Wet and Cold
 
 ```text
-General
-  ColdHealthRegenMultiplier
-    0.8  ->  0.75
+BossesResetGuardianCooldown
+  true  ->  false
 
-  WetHealthRegenMultiplier
-    0.9  ->  0.85
+BossesApplyGuardianPower
+  false  ->  true
 ```
+
+### Wet and Cold
+
+General
+
+```text
+ColdHealthRegenMultiplier
+  0.8  ->  0.75
+
+WetHealthRegenMultiplier
+  0.9  ->  0.85
+```
+
+[neonpack]: https://github.com/NeonCarbide/Valheim-NeonPack
+[templates]: https://github.com/NeonCarbide/Valheim-NeonPack/tree/main/extras/templates
