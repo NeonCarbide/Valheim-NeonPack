@@ -4,6 +4,17 @@ All the changes I've made to the configuration files for the mods included in [N
 
 I've also included my template files for adding r2modmanager compatibility to NexusMods mods in the [template folder][templates]
 
+## Config Change Example <!-- omit in toc -->
+
+### Example Mod Name <!-- omit in toc -->
+
+Config Section
+
+```text
+Variable to Change
+  Default  ->  New Value
+```
+
 ## Included Config Changes <!-- omit in toc -->
 
 - [Better Auto Run](#better-auto-run)
@@ -13,11 +24,14 @@ I've also included my template files for adding r2modmanager compatibility to Ne
 - [Build Helper](#build-helper)
 - [Clock](#clock)
 - [Configurable Autosave](#configurable-autosave)
+- [Creature Level and Loot Control](#creature-level-and-loot-control)
 - [Data Rate Modifier](#data-rate-modifier)
   - [Client - Included](#client---included)
   - [Server](#server)
 - [Epic Loot](#epic-loot)
 - [Explore Together](#explore-together)
+- [Fish Food](#fish-food)
+  - [Custom Recipes](#custom-recipes)
 - [Fitness Skill](#fitness-skill)
 - [Gathering Skill](#gathering-skill)
 - [Gizmo](#gizmo)
@@ -142,6 +156,28 @@ AutosaveInterval
   1200  ->  1800
 ```
 
+### Creature Level and Loot Control
+
+2 - Creatures
+
+```text
+Creatures can spawn with special effects
+  false  ->  true
+
+Time until camps and dungeons respawn in minutes (0 means disabled, 20 is one ingame day)
+  20  ->  140
+
+Creature size increase per star (percentage)
+  10  ->  5
+```
+
+4 - Bosses
+
+```text
+Maximum boss stars
+  None  ->  Three
+```
+
 ### Data Rate Modifier
 
 #### Client - Included
@@ -215,6 +251,75 @@ ShareDeathMarkers
 
 SharedPinOverlapDistance
   1  ->  5
+```
+
+### Fish Food
+
+General
+
+```text
+CustomJsonRecipes
+  false  ->  true
+```
+
+#### Custom Recipes
+
+Fish Sausage
+
+```text
+Fish Sausage x4
+
+---
+
+Crafted at: Cauldron
+
+Dandelion x3
+Honey x2
+Neck Tail x1
+Raw Fish x2
+```
+
+Fish Soup
+
+```text
+Fish Soup x1
+
+---
+
+Crafted at: Cauldron
+
+Carrot x1
+Honey x2
+Raw Fish x2
+Yellow Mushroom x3
+```
+
+Fishing Bait
+
+```text
+Fishing Bait x20
+
+---
+
+Crafted at: Inventory
+
+Neck Tail x1
+Raw Meat x1
+```
+
+Fishing Rod
+
+```text
+Fishing Rod x1
+
+---
+
+Crafted at: Forge
+
+Bone Fragments x5
+Bronze x1
+Core Wood x5
+Fine Wood x10
 ```
 
 ### Fitness Skill
