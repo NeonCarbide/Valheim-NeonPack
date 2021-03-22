@@ -1,6 +1,6 @@
 {
   "name": "NeonPack",
-  "version_number": "2.1.0",
+  "version_number": "2.1.1",
   "website_url": "https://github.com/NeonCarbide/Valheim-NeonPack",
   "description": "A collection of mods from Thunderstore that I use in my singleplayer world. Be sure to check the changelog for any changes.",
   "dependencies": [
@@ -39,7 +39,7 @@
     "damnsneaker-QuickStack-0.6.3",
     "virtuaCode-EmoteWheel-1.2.0",
     "RandyKnapp-ExtendedItemDataFramework-1.0.0",
-    "RandyKnapp-EpicLoot-0.6.0",
+    "RandyKnapp-EpicLoot-0.5.16",
     "Crystal-Sated-1.1.1",
     "Smoothbrain-ComfortCalculationTweaks-1.2.2",
     "pipakin-SkillInjector-1.1.1",
