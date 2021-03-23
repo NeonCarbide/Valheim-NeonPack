@@ -9,14 +9,9 @@ I also use the following mods from NexusMods
 _Required:_
 
 - [Better Trader 1.0.6][better-trader]
-- [Combat Evolved 0.4.0][combat-evolved]
-- [Cooking Skill 1.1.2][cooking-skill]
 - [Crush Antlers 0.1.0][crush-antlers]
-- [Fish Food 1.1.0][fish-food]
 - [Fitness Skill 1.0.3][fitness-skill]
 - [Mod Config Enforcer 1.3.0][mod-config-enforcer]
-- [Planting Plus 1.4.5][planting-plus]
-- [Sleep Without Spawn 0.1.1][sleep-without-spawn]
 
 _Optional:_
 
@@ -41,45 +36,48 @@ I will maintain a trimmed version of the full changelog within this README of on
 
 ### Recent Updates
 
-Version 2.1.1
+Version 2.2.0
 
 ```text
 [Thunderstore]
 
-  ~ Downgraded Epic Loot
-    - 0.6.0 -> 0.5.16
-    - Many features broken, mod dev working on fixes
-```
+  - Removed Data Rate Modifier
+    - 0.148.6 Valheim patch hopefully deprecated this
+    - Probable cause of world loading issue
+  - Removed Quick Stack
+    - 0.148.6 Valheim patch broke some functionality of the mod
+    - Waiting on fix from mod dev
 
-Version 2.1.0
-
-```text
-[Thunderstore]
-
-  + Added Creature Level and Loot Control 2.2.0
-  + Added Daisy Chain 1.0.0
-  + Added Jotunn Lib 0.1.2
-
-  * Updated BepInEx
-    - 5.4.800 -> 5.4.900
   * Updated Better UI
-    - 1.6.1 -> 1.6.3
+    - 1.6.3 -> 1.6.4
   * Updated Epic Loot
-    - 0.5.16 -> 0.6.0
+    - 0.5.16 -> 0.6.3
   * Updated Equipment and Quick Slots
-    - 2.0.2 -> 2.0.3
-  * Updated Pathfinder
-    - 1.0.0 -> 1.0.1
+    - 2.0.3 -> 2.0.4
+  * Updated Speedy Paths
+    - 1.0.3 -> 1.0.4
+  * Updated Valheim Armorstand
+    - 0.0.1 -> 0.0.2
+  * Updated Valheim Brawler
+    - 0.0.4 -> 0.0.6
 
 [NexusMods]
 
-  - Removed Jotunn Lib
-    - Replaced by Thunderstore version of mod
-
-  * Updated Fish Food
-    - 1.0.0 -> 1.1.0
-  * Updated Fitness Skill
-    - 1.0.2 -> 1.0.3
+  - Removed Combat Evolved
+    - 0.148.6 Valheim patch broke projectile interaction with the mod
+    - Waiting on fix from mod dev
+  - Removed Cooking Skill
+    - 0.148.6 Valheim patch broke fermenter functionality
+    - Waiting on fix from mod dev
+  - Removed Fish Food
+    - AssetBundle failing to load
+    - Waiting on fix from mod dev
+  - Removed Planting Plus
+    - Issues regarding desync with certain interactables and combat
+    - Waiting on fix from mod dev
+  - Removed Sleep Without Spawn
+    - Never really used the mod
+    - Probable cause of world loading issue
 ```
 
 [changelog]: https://github.com/NeonCarbide/Valheim-NeonPack/blob/main/CHANGELOG.md
@@ -98,12 +96,8 @@ Version 2.1.0
 [fish-food]: https://www.nexusmods.com/valheim/mods/531
 [fitness-skill]: https://www.nexusmods.com/valheim/mods/388
 [gathering-skill]: https://www.nexusmods.com/valheim/mods/342
-[jotunn-lib]: https://www.nexusmods.com/valheim/mods/507
 [lokis-first-person]: https://www.nexusmods.com/valheim/mods/100
 [lokis-immersion]: https://www.nexusmods.com/valheim/mods/139
-[minimap-plus]: https://www.nexusmods.com/valheim/mods/242
 [mod-config-enforcer]: https://www.nexusmods.com/valheim/mods/460
 [nexus-update-check]: https://www.nexusmods.com/valheim/mods/102
 [planting-plus]: https://www.nexusmods.com/valheim/mods/274
-[sleep-without-spawn]: https://www.nexusmods.com/valheim/mods/261
-[useful-paths]: https://www.nexusmods.com/valheim/mods/438

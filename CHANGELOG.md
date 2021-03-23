@@ -5,8 +5,9 @@ This modpack uses the [semantic versioning](https://semver.org) convention of `M
 ## _Sorted by Most Recent_ <!-- omit in toc -->
 
 - [Version 2.x.x](#version-2xx)
+  - [2.2.0](#220)
   - [2.1.x](#21x)
-    - [2.1.1](#211)
+    - [2.1.1 - IMPORTANT](#211---important)
     - [2.1.0](#210)
   - [2.0.0](#200)
 - [Version 1.x.x](#version-1xx)
@@ -39,9 +40,53 @@ This modpack uses the [semantic versioning](https://semver.org) convention of `M
 
 ---
 
+#### 2.2.0
+
+```text
+[Thunderstore]
+
+  - Removed Data Rate Modifier
+    - 0.148.6 Valheim patch hopefully deprecated this
+    - Probable cause of world loading issue
+  - Removed Quick Stack
+    - 0.148.6 Valheim patch broke some functionality of the mod
+    - Waiting on fix from mod dev
+
+  * Updated Better UI
+    - 1.6.3 -> 1.6.4
+  * Updated Epic Loot
+    - 0.5.16 -> 0.6.3
+  * Updated Equipment and Quick Slots
+    - 2.0.3 -> 2.0.4
+  * Updated Speedy Paths
+    - 1.0.3 -> 1.0.4
+  * Updated Valheim Armorstand
+    - 0.0.1 -> 0.0.2
+  * Updated Valheim Brawler
+    - 0.0.4 -> 0.0.6
+
+[NexusMods]
+
+  - Removed Combat Evolved
+    - 0.148.6 Valheim patch broke projectile interaction with the mod
+    - Waiting on fix from mod dev
+  - Removed Cooking Skill
+    - 0.148.6 Valheim patch broke fermenter functionality
+    - Waiting on fix from mod dev
+  - Removed Fish Food
+    - AssetBundle failing to load
+    - Waiting on fix from mod dev
+  - Removed Planting Plus
+    - Issues regarding desync with certain interactables and combat
+    - Waiting on fix from mod dev
+  - Removed Sleep Without Spawn
+    - Never really used the mod
+    - Probable cause of world loading issue
+```
+
 #### 2.1.x
 
-##### 2.1.1
+##### 2.1.1 - IMPORTANT
 
 ```text
 [Thunderstore]
