@@ -1,6 +1,6 @@
 {
   "name": "NeonPack",
-  "version_number": "2.2.0",
+  "version_number": "2.3.0",
   "website_url": "https://github.com/NeonCarbide/Valheim-NeonPack",
   "description": "A collection of mods from Thunderstore that I use in my singleplayer world. Be sure to check the changelog for any changes.",
   "dependencies": [
@@ -15,7 +15,6 @@
     "Xenofell-Skillful-0.3.0",
     "chase000-UnfrightenTamedAnimals-0.1.0",
     "DeekyJay-SplitStackTextInput-1.1.0",
-    "LVH-IT-FasterTeleportation-0.3.1",
     "RandyKnapp-EquipmentAndQuickSlots-2.0.4",
     "purpledxd-LocateMerchant-1.0.1",
     "MaxiMods-MultiCraft-0.2.6",
@@ -45,8 +44,11 @@
     "Rolo-ExploreTogether-1.3.0",
     "Crystal-Pathfinder-1.0.1",
     "Nextek-SpeedyPaths-1.0.4",
-    "Smoothbrain-CreatureLevelAndLootControl-2.2.0",
+    "Smoothbrain-CreatureLevelAndLootControl-2.4.2",
     "Rolo-DaisyChain-1.0.0",
-    "JotunnLibTeam-JotunnLib-0.1.2"
+    "JotunnLibTeam-JotunnLib-0.1.2",
+    "Crystal-FastTools-1.0.3",
+    "Crystal-ProperPortals-1.0.0",
+    "damnsneaker-QuickStack-0.6.5"
   ]
 }

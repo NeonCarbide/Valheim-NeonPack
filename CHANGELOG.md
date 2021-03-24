@@ -5,7 +5,8 @@ This modpack uses the [semantic versioning](https://semver.org) convention of `M
 ## _Sorted by Most Recent_ <!-- omit in toc -->
 
 - [Version 2.x.x](#version-2xx)
-  - [2.2.0](#220)
+  - [2.3.0](#230)
+  - [2.2.0 - IMPORTANT](#220---important)
   - [2.1.x](#21x)
     - [2.1.1 - IMPORTANT](#211---important)
     - [2.1.0](#210)
@@ -40,9 +41,32 @@ This modpack uses the [semantic versioning](https://semver.org) convention of `M
 
 ---
 
-#### 2.2.0
+#### 2.3.0
 
 ```text
+[Thunderstore]
+
+  + Added Fast Tools 1.0.3
+  + Added Proper Portals 1.0.0
+  + Added Quick Stack 0.6.5
+
+  - Removed Faster Teleportation
+    - Replaced by Proper Portals
+
+  * Updated Creature Level and Loot Control
+    - 2.2.0 -> 2.4.2
+
+[NexusMods]
+
+  + Added Combat Evolved 0.4.1
+  + Added Cooking Skill 1.1.3
+```
+
+#### 2.2.0 - IMPORTANT
+
+```text
+# 0.148.6 Valheim patch
+
 [Thunderstore]
 
   - Removed Data Rate Modifier

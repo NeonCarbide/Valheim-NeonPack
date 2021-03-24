@@ -25,13 +25,8 @@ Variable to Change
 - [Clock](#clock)
 - [Configurable Autosave](#configurable-autosave)
 - [Creature Level and Loot Control](#creature-level-and-loot-control)
-- [Data Rate Modifier](#data-rate-modifier)
-  - [Client - Included](#client---included)
-  - [Server](#server)
 - [Epic Loot](#epic-loot)
 - [Explore Together](#explore-together)
-- [Fish Food](#fish-food)
-  - [Custom Recipes](#custom-recipes)
 - [Fitness Skill](#fitness-skill)
 - [Gathering Skill](#gathering-skill)
 - [Gizmo](#gizmo)
@@ -43,8 +38,8 @@ Variable to Change
   - [No Health Bars](#no-health-bars)
 - [Nexus Update Check](#nexus-update-check)
 - [Paddle Power](#paddle-power)
-- [Planting Plus](#planting-plus)
 - [Prevent Accidental Interaction](#prevent-accidental-interaction)
+- [Proper Portals](#proper-portals)
 - [Skillful](#skillful)
 - [Triple Bronze](#triple-bronze)
 - [Useful Trophies](#useful-trophies)
@@ -178,28 +173,6 @@ Maximum boss stars
   None  ->  Three
 ```
 
-### Data Rate Modifier
-
-#### Client - Included
-
-DataRate
-
-```text
-Rate
-  10  ->  2
-```
-
-#### Server
-
-DataRate
-
-```text
-Rate
-  10  ->  x
-
-x = 5 * [number of players]
-```
-
 ### Epic Loot
 
 Item Colors
@@ -251,75 +224,6 @@ ShareDeathMarkers
 
 SharedPinOverlapDistance
   1  ->  5
-```
-
-### Fish Food
-
-General
-
-```text
-CustomJsonRecipes
-  false  ->  true
-```
-
-#### Custom Recipes
-
-Fish Sausage
-
-```text
-Fish Sausage x4
-
----
-
-Crafted at: Cauldron
-
-Dandelion x3
-Honey x2
-Neck Tail x1
-Raw Fish x2
-```
-
-Fish Soup
-
-```text
-Fish Soup x1
-
----
-
-Crafted at: Cauldron
-
-Carrot x1
-Honey x2
-Raw Fish x2
-Yellow Mushroom x3
-```
-
-Fishing Bait
-
-```text
-Fishing Bait x20
-
----
-
-Crafted at: Inventory
-
-Neck Tail x1
-Raw Meat x1
-```
-
-Fishing Rod
-
-```text
-Fishing Rod x1
-
----
-
-Crafted at: Forge
-
-Bone Fragments x5
-Bronze x1
-Core Wood x5
-Fine Wood x10
 ```
 
 ### Fitness Skill
@@ -440,18 +344,6 @@ counting_method
   ATTACHED  ->  SEATED
 ```
 
-### Planting Plus
-
-General
-
-```text
-RequireCultivation
-  false  ->  true
-
-AlternateIcons
-  false  ->  true
-```
-
 ### Prevent Accidental Interaction
 
 General
@@ -465,6 +357,18 @@ BlockInteractionMethod
 
 BlockInteractionKey
   left shift  ->  left alt
+```
+
+### Proper Portals
+
+Portal
+
+```text
+CarryAnything
+  false  ->  true
+
+MinPortalTime
+  0  ->  3
 ```
 
 ### Skillful

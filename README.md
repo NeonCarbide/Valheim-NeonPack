@@ -9,6 +9,8 @@ I also use the following mods from NexusMods
 _Required:_
 
 - [Better Trader 1.0.6][better-trader]
+- [Combat Evolved 0.4.1][combat-evolved]
+- [Cooking Skill 1.1.3][cooking-skill]
 - [Crush Antlers 0.1.0][crush-antlers]
 - [Fitness Skill 1.0.3][fitness-skill]
 - [Mod Config Enforcer 1.3.0][mod-config-enforcer]
@@ -36,48 +38,25 @@ I will maintain a trimmed version of the full changelog within this README of on
 
 ### Recent Updates
 
-Version 2.2.0
+Version 2.3.0
 
 ```text
 [Thunderstore]
 
-  - Removed Data Rate Modifier
-    - 0.148.6 Valheim patch hopefully deprecated this
-    - Probable cause of world loading issue
-  - Removed Quick Stack
-    - 0.148.6 Valheim patch broke some functionality of the mod
-    - Waiting on fix from mod dev
+  + Added Fast Tools 1.0.3
+  + Added Proper Portals 1.0.0
+  + Added Quick Stack 0.6.5
 
-  * Updated Better UI
-    - 1.6.3 -> 1.6.4
-  * Updated Epic Loot
-    - 0.5.16 -> 0.6.3
-  * Updated Equipment and Quick Slots
-    - 2.0.3 -> 2.0.4
-  * Updated Speedy Paths
-    - 1.0.3 -> 1.0.4
-  * Updated Valheim Armorstand
-    - 0.0.1 -> 0.0.2
-  * Updated Valheim Brawler
-    - 0.0.4 -> 0.0.6
+  - Removed Faster Teleportation
+    - Replaced by Proper Portals
+
+  * Updated Creature Level and Loot Control
+    - 2.2.0 -> 2.4.2
 
 [NexusMods]
 
-  - Removed Combat Evolved
-    - 0.148.6 Valheim patch broke projectile interaction with the mod
-    - Waiting on fix from mod dev
-  - Removed Cooking Skill
-    - 0.148.6 Valheim patch broke fermenter functionality
-    - Waiting on fix from mod dev
-  - Removed Fish Food
-    - AssetBundle failing to load
-    - Waiting on fix from mod dev
-  - Removed Planting Plus
-    - Issues regarding desync with certain interactables and combat
-    - Waiting on fix from mod dev
-  - Removed Sleep Without Spawn
-    - Never really used the mod
-    - Probable cause of world loading issue
+  + Added Combat Evolved 0.4.1
+  + Added Cooking Skill 1.1.3
 ```
 
 [changelog]: https://github.com/NeonCarbide/Valheim-NeonPack/blob/main/CHANGELOG.md
