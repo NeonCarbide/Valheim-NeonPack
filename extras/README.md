@@ -18,11 +18,13 @@ Variable to Change
 ## Included Config Changes <!-- omit in toc -->
 
 - [Better Auto Run](#better-auto-run)
+- [Better Chat](#better-chat)
 - [Better Trader](#better-trader)
 - [Better UI](#better-ui)
 - [Build Camera](#build-camera)
 - [Build Helper](#build-helper)
 - [Clock](#clock)
+- [Colorful Signs](#colorful-signs)
 - [Configurable Autosave](#configurable-autosave)
 - [Creature Level and Loot Control](#creature-level-and-loot-control)
 - [Epic Loot](#epic-loot)
@@ -54,6 +56,15 @@ General
 ```text
 sprintUntil
   0.5  ->  0.3
+```
+
+### Better Chat
+
+Chat
+
+```text
+HideDelay
+  10  ->  5
 ```
 
 ### Better Trader
@@ -142,6 +153,15 @@ ClockFormat
   HH:mm  ->  fuzzy
 ```
 
+### Colorful Signs
+
+Color
+
+```text
+Default Color
+  #ededed  ->  #000000
+```
+
 ### Configurable Autosave
 
 General
@@ -157,7 +177,7 @@ AutosaveInterval
 
 ```text
 Creatures can spawn with special effects
-  false  ->  true
+  Off  ->  On
 
 Time until camps and dungeons respawn in minutes (0 means disabled, 20 is one ingame day)
   20  ->  140
@@ -169,8 +189,8 @@ Creature size increase per star (percentage)
 4 - Bosses
 
 ```text
-Maximum boss stars
-  None  ->  Three
+Star chances for bosses (percentages)
+  0, 0, 0, 0, 0, 0, 0, 0, 0  ->  30, 15, 5
 ```
 
 ### Epic Loot

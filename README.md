@@ -1,6 +1,6 @@
 # Valheim-NeonPack
 
-A collection of mods from Thunderstore that I use in my singleplayer world
+A collection of mods from Thunderstore that I've curated for personal use
 
 I've included a list of all the config changes I've made in the [github for this modpack][github-extras]
 
@@ -13,7 +13,7 @@ _Required:_
 - [Cooking Skill 1.1.3][cooking-skill]
 - [Crush Antlers 0.1.0][crush-antlers]
 - [Fitness Skill 1.0.3][fitness-skill]
-- [Mod Config Enforcer 1.3.0][mod-config-enforcer]
+- [Mod Config Enforcer 1.4.1][mod-config-enforcer]
 
 _Optional:_
 
@@ -38,25 +38,29 @@ I will maintain a trimmed version of the full changelog within this README of on
 
 ### Recent Updates
 
-Version 2.3.0
+Version 2.4.0
 
 ```text
 [Thunderstore]
 
-  + Added Fast Tools 1.0.3
-  + Added Proper Portals 1.0.0
-  + Added Quick Stack 0.6.5
-
-  - Removed Faster Teleportation
-    - Replaced by Proper Portals
+  + Added Better Chat 1.4.1
+  + Added Colorful Signs 5.4.902
+  + Added Equip Wheel 1.2.3
+  + Added Remove Death Pins 5.4.901
 
   * Updated Creature Level and Loot Control
-    - 2.2.0 -> 2.4.2
+    - 2.4.2 -> 2.5.2
+  * Updated Pathfinder
+    - 1.0.1 -> 1.0.2
+  * Updated Proper Portals
+    - 1.0.0 -> 1.0.1
+  * Updated Sated
+    - 1.1.1 -> 1.1.2
 
 [NexusMods]
 
-  + Added Combat Evolved 0.4.1
-  + Added Cooking Skill 1.1.3
+  * Updated Mod Config Enforcer
+    - 1.3.0 -> 1.4.1
 ```
 
 [changelog]: https://github.com/NeonCarbide/Valheim-NeonPack/blob/main/CHANGELOG.md
