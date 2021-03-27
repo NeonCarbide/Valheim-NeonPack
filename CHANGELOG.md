@@ -5,6 +5,7 @@ This modpack uses the [semantic versioning](https://semver.org) convention of `M
 ## _Sorted by Most Recent_ <!-- omit in toc -->
 
 - [Version 2.x.x](#version-2xx)
+  - [2.5.0](#250)
   - [2.4.0](#240)
   - [2.3.0](#230)
   - [2.2.0 - IMPORTANT](#220---important)
@@ -41,6 +42,29 @@ This modpack uses the [semantic versioning](https://semver.org) convention of `M
 ### Version 2.x.x
 
 ---
+
+#### 2.5.0
+
+```text
+[Thunderstore]
+
+  + Added Beehive Utilities 1.0.1
+
+  * Updated BepInEx
+    - 5.4.900 -> 5.4.901
+  * Updated Creature Level and Loot Control
+    - 2.5.2 -> 3.0.0
+  * Updated Equip Wheel
+    - 1.2.3 -> 1.3.0
+  * Updated Jotunn Lib
+    - 0.1.2 -> 0.1.4
+  * Updated Proper Portals
+    - 1.0.1 -> 1.0.2
+
+[NexusMods]
+
+  + Added More Skills 0.1.5
+```
 
 #### 2.4.0
 

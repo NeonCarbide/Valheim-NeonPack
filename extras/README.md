@@ -17,6 +17,7 @@ Variable to Change
 
 ## Included Config Changes <!-- omit in toc -->
 
+- [Beehive Utilities](#beehive-utilities)
 - [Better Auto Run](#better-auto-run)
 - [Better Chat](#better-chat)
 - [Better Trader](#better-trader)
@@ -38,6 +39,7 @@ Variable to Change
   - [Meditation](#meditation)
   - [Minimap](#minimap)
   - [No Health Bars](#no-health-bars)
+- [More Skills](#more-skills)
 - [Nexus Update Check](#nexus-update-check)
 - [Paddle Power](#paddle-power)
 - [Prevent Accidental Interaction](#prevent-accidental-interaction)
@@ -48,6 +50,18 @@ Variable to Change
 - [Wet and Cold](#wet-and-cold)
 
 ---
+
+### Beehive Utilities
+
+2 - General
+
+```text
+Disable Proximity Check
+  true  ->  false
+
+Max Honey
+  4  ->  10
+```
 
 ### Better Auto Run
 
@@ -177,6 +191,9 @@ AutosaveInterval
 
 ```text
 Creatures can spawn with special effects
+  Off  ->  On
+
+Creatures can spawn with elemental infusions
   Off  ->  On
 
 Time until camps and dungeons respawn in minutes (0 means disabled, 20 is one ingame day)
@@ -343,6 +360,57 @@ Settings
 
 ```text
 EnableMod
+  true  ->  false
+```
+
+### More Skills
+
+Enablers: Crafting
+
+```text
+Enable Crafting Mod
+  true  ->  false
+```
+
+Enablers: Hunting
+
+```text
+Enable Hunting Bosses Mod
+  false  ->  true
+```
+
+Enablers: Sailing
+
+```text
+Enable Sailing Mod
+  true  ->  false
+```
+
+Enablers: Sneak
+
+```text
+Enable Crouch Speed Mod
+  true  ->  false
+```
+
+Enablers: Strength
+
+```text
+Enable Strength Mod
+  true  ->  false
+```
+
+Enablers: Swim
+
+```text
+Enable Swim Stamina Mod
+  true  ->  false
+```
+
+Enablers: Vitality
+
+```text
+Enable Vitality Mod
   true  ->  false
 ```
 

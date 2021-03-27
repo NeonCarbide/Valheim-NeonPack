@@ -14,6 +14,7 @@ _Required:_
 - [Crush Antlers 0.1.0][crush-antlers]
 - [Fitness Skill 1.0.3][fitness-skill]
 - [Mod Config Enforcer 1.4.1][mod-config-enforcer]
+- [More Skills 0.1.5][more-skills]
 
 _Optional:_
 
@@ -38,29 +39,27 @@ I will maintain a trimmed version of the full changelog within this README of on
 
 ### Recent Updates
 
-Version 2.4.0
+Version 2.5.0
 
 ```text
 [Thunderstore]
 
-  + Added Better Chat 1.4.1
-  + Added Colorful Signs 5.4.902
-  + Added Equip Wheel 1.2.3
-  + Added Remove Death Pins 5.4.901
+  + Added Beehive Utilities 1.0.1
 
+  * Updated BepInEx
+    - 5.4.900 -> 5.4.901
   * Updated Creature Level and Loot Control
-    - 2.4.2 -> 2.5.2
-  * Updated Pathfinder
-    - 1.0.1 -> 1.0.2
+    - 2.5.2 -> 3.0.0
+  * Updated Equip Wheel
+    - 1.2.3 -> 1.3.0
+  * Updated Jotunn Lib
+    - 0.1.2 -> 0.1.4
   * Updated Proper Portals
-    - 1.0.0 -> 1.0.1
-  * Updated Sated
-    - 1.1.1 -> 1.1.2
+    - 1.0.1 -> 1.0.2
 
 [NexusMods]
 
-  * Updated Mod Config Enforcer
-    - 1.3.0 -> 1.4.1
+  + Added More Skills 0.1.5
 ```
 
 [changelog]: https://github.com/NeonCarbide/Valheim-NeonPack/blob/main/CHANGELOG.md
@@ -82,5 +81,6 @@ Version 2.4.0
 [lokis-first-person]: https://www.nexusmods.com/valheim/mods/100
 [lokis-immersion]: https://www.nexusmods.com/valheim/mods/139
 [mod-config-enforcer]: https://www.nexusmods.com/valheim/mods/460
+[more-skills]: https://www.nexusmods.com/valheim/mods/539
 [nexus-update-check]: https://www.nexusmods.com/valheim/mods/102
 [planting-plus]: https://www.nexusmods.com/valheim/mods/274
