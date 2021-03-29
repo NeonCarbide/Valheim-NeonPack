@@ -5,6 +5,7 @@ This modpack uses the [semantic versioning](https://semver.org) convention of `M
 ## _Sorted by Most Recent_ <!-- omit in toc -->
 
 - [Version 2.x.x](#version-2xx)
+  - [2.6.0](#260)
   - [2.5.0](#250)
   - [2.4.0](#240)
   - [2.3.0](#230)
@@ -42,6 +43,34 @@ This modpack uses the [semantic versioning](https://semver.org) convention of `M
 ### Version 2.x.x
 
 ---
+
+#### 2.6.0
+
+```text
+# 0.148.7 Valheim patch
+
+[Thunderstore]
+
+  + Added Name Tamed Animals 1.0.0
+
+  * Updated Creature Level and Loot Control
+    - 3.0.0 -> 3.2.0
+  * Updated Equip Wheel
+    - 1.3.0 -> 1.3.1
+  * Updated Fast Tools
+    - 1.0.3 -> 1.1.0
+  * Updated Remove Death Pins
+    - 5.4.901 -> 5.4.902
+
+[NexusMods]
+
+  - Removed Better Trader
+    - Causing long app start times due to loading 200+ trade options
+    - Will try to find replacement
+
+  * Updated More Skills
+    - 0.1.5 -> 0.1.54
+```
 
 #### 2.5.0
 

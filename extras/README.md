@@ -24,12 +24,12 @@ Variable to Change
 - [Better UI](#better-ui)
 - [Build Camera](#build-camera)
 - [Build Helper](#build-helper)
-- [Clock](#clock)
 - [Colorful Signs](#colorful-signs)
 - [Configurable Autosave](#configurable-autosave)
 - [Creature Level and Loot Control](#creature-level-and-loot-control)
 - [Epic Loot](#epic-loot)
 - [Explore Together](#explore-together)
+- [Fast Tools](#fast-tools)
 - [Fitness Skill](#fitness-skill)
 - [Gathering Skill](#gathering-skill)
 - [Gizmo](#gizmo)
@@ -40,6 +40,7 @@ Variable to Change
   - [Minimap](#minimap)
   - [No Health Bars](#no-health-bars)
 - [More Skills](#more-skills)
+- [Name Tamed Animals](#name-tamed-animals)
 - [Nexus Update Check](#nexus-update-check)
 - [Paddle Power](#paddle-power)
 - [Prevent Accidental Interaction](#prevent-accidental-interaction)
@@ -143,30 +144,6 @@ AreaRepairRadius
   7.5  ->  3
 ```
 
-### Clock
-
-General
-
-```text
-ClockLocationString
-  50%,3%  ->  75%,3%
-
-ClockUseShadow
-  false  ->  true
-
-ClockFontName
-  AveriaSerifLibre-Bold  ->  Norsebold
-
-ClockFontColor
-  FFFFFFFF  ->  FFFFFFB3
-
-ClockShadowColor
-  000000FF  ->  000000B3
-
-ClockFormat
-  HH:mm  ->  fuzzy
-```
-
 ### Colorful Signs
 
 Color
@@ -206,8 +183,21 @@ Creature size increase per star (percentage)
 4 - Bosses
 
 ```text
+Bosses can spawn with special effects
+  Off  ->  On
+
 Star chances for bosses (percentages)
   0, 0, 0, 0, 0, 0, 0, 0, 0  ->  30, 15, 5
+```
+
+8 - Boss Affix power
+
+```text
+Elementalist damage increase (percentage)
+  20  ->  15
+
+Enraged damage increase (percentage)
+  20  ->  30
 ```
 
 ### Epic Loot
@@ -261,6 +251,18 @@ ShareDeathMarkers
 
 SharedPinOverlapDistance
   1  ->  5
+```
+
+### Fast Tools
+
+Tools
+
+```text
+PlaceDelay
+  0.25  ->  0.3
+
+RemoveDelay
+  0.15  ->  0.2
 ```
 
 ### Fitness Skill
@@ -412,6 +414,15 @@ Enablers: Vitality
 ```text
 Enable Vitality Mod
   true  ->  false
+```
+
+### Name Tamed Animals
+
+General
+
+```text
+RenameModifierKey
+  LeftShift  ->  LeftAlt
 ```
 
 ### Nexus Update Check

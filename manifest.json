@@ -1,6 +1,6 @@
 {
   "name": "NeonPack",
-  "version_number": "2.5.0",
+  "version_number": "2.6.0",
   "website_url": "https://github.com/NeonCarbide/Valheim-NeonPack",
   "description": "A collection of mods from Thunderstore that I've curated for personal use. Be sure to check the changelog for any changes.",
   "dependencies": [
@@ -44,16 +44,17 @@
     "Rolo-ExploreTogether-1.3.0",
     "Crystal-Pathfinder-1.0.2",
     "Nextek-SpeedyPaths-1.0.4",
-    "Smoothbrain-CreatureLevelAndLootControl-3.0.0",
+    "Smoothbrain-CreatureLevelAndLootControl-3.2.0",
     "Rolo-DaisyChain-1.0.0",
     "JotunnLibTeam-JotunnLib-0.1.4",
-    "Crystal-FastTools-1.0.3",
+    "Crystal-FastTools-1.1.0",
     "Crystal-ProperPortals-1.0.2",
     "damnsneaker-QuickStack-0.6.5",
     "Crystal-BetterChat-1.4.1",
     "Tekla-ColorfulSigns-5.4.902",
-    "virtuaCode-EquipWheel-1.3.0",
-    "Tekla-RemoveDeathPins-5.4.901",
-    "Smallo-BeehiveUtilities-1.0.1"
+    "virtuaCode-EquipWheel-1.3.1",
+    "Tekla-RemoveDeathPins-5.4.902",
+    "Smallo-BeehiveUtilities-1.0.1",
+    "Barril-NameTamedAnimals-1.0.0"
   ]
 }
