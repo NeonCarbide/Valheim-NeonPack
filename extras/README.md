@@ -416,6 +416,27 @@ Enable Vitality Mod
   true  ->  false
 ```
 
+2 - Multipliers: Hunting
+
+```text
+Multiplies the Hunting Drops
+  1.5  ->  2
+```
+
+2 - Multipliers: Pickaxe
+
+```text
+Multiplier based on level Pickaxe
+  1.5  ->  2
+```
+
+2 - Multipliers: WoodCutting
+
+```text
+Multiplier based on level Woodcutting
+  1.5  ->  2
+```
+
 ### Name Tamed Animals
 
 General

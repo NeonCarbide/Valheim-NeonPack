@@ -5,6 +5,7 @@ This modpack uses the [semantic versioning](https://semver.org) convention of `M
 ## _Sorted by Most Recent_ <!-- omit in toc -->
 
 - [Version 2.x.x](#version-2xx)
+  - [2.7.0](#270)
   - [2.6.0](#260)
   - [2.5.0](#250)
   - [2.4.0](#240)
@@ -43,6 +44,27 @@ This modpack uses the [semantic versioning](https://semver.org) convention of `M
 ### Version 2.x.x
 
 ---
+
+#### 2.7.0
+
+```text
+[Thunderstore]
+
+  * Updated Creature Level and Loot Control
+    - 3.2.0 -> 3.2.2
+  * Updated Proper Portals
+    - 1.0.2 -> 1.1.0
+
+[NexusMods]
+
+  + Added Configuration Manager 0.3.3
+  + Added Peek In Container 1.0.0
+
+  * Updated Combat Evolved
+    - 0.4.1 -> 0.4.2
+  * Updated More Skills
+    - 0.1.54 -> 0.1.61
+```
 
 #### 2.6.0
 
