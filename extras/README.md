@@ -173,8 +173,8 @@ Creatures can spawn with special effects
 Creatures can spawn with elemental infusions
   Off  ->  On
 
-Time until camps and dungeons respawn in minutes (0 means disabled, 20 is one ingame day)
-  20  ->  140
+Time until creatures in camps and dungeons respawn in minutes (0 means disabled, 20 is one ingame day)
+  20  ->  70
 
 Creature size increase per star (percentage)
   10  ->  5
@@ -193,6 +193,9 @@ Star chances for bosses (percentages)
 8 - Boss Affix power
 
 ```text
+Number of summons for Summoners
+  3  ->  5
+
 Elementalist damage increase (percentage)
   20  ->  15
 
@@ -406,6 +409,13 @@ Enablers: Swim
 
 ```text
 Enable Swim Stamina Mod
+  true  ->  false
+```
+
+Enablers: Taming
+
+```text
+Enable Taming Unlocks Per Level
   true  ->  false
 ```
 

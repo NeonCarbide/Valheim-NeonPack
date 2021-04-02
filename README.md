@@ -9,16 +9,17 @@ I also use the following mods from NexusMods
 _Required:_
 
 - [Combat Evolved 0.4.2][combat-evolved]
-- [Cooking Skill 1.1.3][cooking-skill]
+- [Cooking Skill 1.1.4][cooking-skill]
 - [Crush Antlers 0.1.0][crush-antlers]
 - [Fitness Skill 1.0.3][fitness-skill]
 - [Mod Config Enforcer 1.4.1][mod-config-enforcer]
-- [More Skills 0.1.61][more-skills]
+- [More Skills 0.1.7][more-skills]
 
 _Optional:_
 
 - [Better Pickup Notifications 1.2.0][better-pickup-notifications]
 - [Clock 1.1.1][clock]
+- [Compass 0.4.0][compass]
 - [Configurable Autosave 1.1.0][configurable-autosave]
 - [Configuration Manager 0.3.3][configuration-manager]
 - [Loki's First Person Valheim Mod 1.0.6][lokis-first-person]
@@ -40,25 +41,28 @@ I will maintain a trimmed version of the full changelog within this README of on
 
 ### Recent Updates
 
-Version 2.7.0
+Version 2.8.0
 
 ```text
 [Thunderstore]
 
+  * Updated Beehive Utilities
+    - 1.0.1 -> 1.1.0
   * Updated Creature Level and Loot Control
-    - 3.2.0 -> 3.2.2
-  * Updated Proper Portals
-    - 1.0.2 -> 1.1.0
+    - 3.2.2 -> 3.4.0
+  * Updated Equip Wheel
+    - 1.3.1 -> 1.3.3
+  * Updated Pathfinder
+    - 1.0.2 -> 2.0.3
 
 [NexusMods]
 
-  + Added Configuration Manager 0.3.3
-  + Added Peek In Container 1.0.0
+  + Added Compass 0.4.0
 
-  * Updated Combat Evolved
-    - 0.4.1 -> 0.4.2
+  * Updated Cooking Skill
+    - 1.1.3 -> 1.1.4
   * Updated More Skills
-    - 0.1.54 -> 0.1.61
+    - 0.1.61 -> 0.1.7
 ```
 
 [changelog]: https://github.com/NeonCarbide/Valheim-NeonPack/blob/main/CHANGELOG.md
@@ -70,6 +74,7 @@ Version 2.7.0
 [better-pickup-notifications]: https://www.nexusmods.com/valheim/mods/528
 [clock]: https://www.nexusmods.com/valheim/mods/85
 [combat-evolved]: https://www.nexusmods.com/valheim/mods/301
+[compass]: https://www.nexusmods.com/valheim/mods/851
 [configurable-autosave]: https://www.nexusmods.com/valheim/mods/199
 [configuration-manager]: https://www.nexusmods.com/valheim/mods/740
 [cooking-skill]: https://www.nexusmods.com/valheim/mods/483
