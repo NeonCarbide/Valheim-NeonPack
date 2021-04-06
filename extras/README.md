@@ -20,6 +20,7 @@ Variable to Change
 - [Beehive Utilities](#beehive-utilities)
 - [Better Auto Run](#better-auto-run)
 - [Better Chat](#better-chat)
+- [Better Stamina](#better-stamina)
 - [Better Trader](#better-trader)
 - [Better UI](#better-ui)
 - [Build Camera](#build-camera)
@@ -40,6 +41,11 @@ Variable to Change
   - [Minimap](#minimap)
   - [No Health Bars](#no-health-bars)
 - [More Skills](#more-skills)
+  - [Crafting Config](#crafting-config)
+  - [Hunting Config](#hunting-config)
+  - [Overhauls Config](#overhauls-config)
+  - [Sailing Config](#sailing-config)
+  - [Taming Config](#taming-config)
 - [Name Tamed Animals](#name-tamed-animals)
 - [Nexus Update Check](#nexus-update-check)
 - [Paddle Power](#paddle-power)
@@ -80,6 +86,21 @@ Chat
 ```text
 HideDelay
   10  ->  5
+```
+
+### Better Stamina
+
+Tools
+
+```text
+RemoveHammerStaminaCost
+  true  ->  false
+
+RemoveHoeStaminaCost
+  true  ->  false
+
+RemoveCultivatorStaminaCost
+  true  ->  false
 ```
 
 ### Better Trader
@@ -204,6 +225,13 @@ Enraged damage increase (percentage)
 ```
 
 ### Epic Loot
+
+Balance
+
+```text
+Bosses Drop One Trophy Per Player
+  true  ->  false
+```
 
 Item Colors
 
@@ -370,38 +398,30 @@ EnableMod
 
 ### More Skills
 
-Enablers: Crafting
+#### Crafting Config
+
+Enablers
 
 ```text
 Enable Crafting Mod
   true  ->  false
 ```
 
-Enablers: Hunting
+#### Hunting Config
+
+Multipliers
 
 ```text
-Enable Hunting Bosses Mod
-  false  ->  true
+Multiplies the Hunting Drops
+  1.5  ->  2
 ```
 
-Enablers: Sailing
+#### Overhauls Config
+
+Enablers: Jump
 
 ```text
-Enable Sailing Mod
-  true  ->  false
-```
-
-Enablers: Sneak
-
-```text
-Enable Crouch Speed Mod
-  true  ->  false
-```
-
-Enablers: Strength
-
-```text
-Enable Strength Mod
+Enable Higher Jump Mod
   true  ->  false
 ```
 
@@ -412,39 +432,36 @@ Enable Swim Stamina Mod
   true  ->  false
 ```
 
-Enablers: Taming
-
-```text
-Enable Taming Unlocks Per Level
-  true  ->  false
-```
-
-Enablers: Vitality
-
-```text
-Enable Vitality Mod
-  true  ->  false
-```
-
-2 - Multipliers: Hunting
-
-```text
-Multiplies the Hunting Drops
-  1.5  ->  2
-```
-
-2 - Multipliers: Pickaxe
+Multipliers: Pickaxe
 
 ```text
 Multiplier based on level Pickaxe
   1.5  ->  2
 ```
 
-2 - Multipliers: WoodCutting
+Multipliers: WoodCutting
 
 ```text
 Multiplier based on level Woodcutting
   1.5  ->  2
+```
+
+#### Sailing Config
+
+Enablers
+
+```text
+Enable Sailing Mod
+  true  ->  false
+```
+
+#### Taming Config
+
+Enablers: Taming
+
+```text
+Enable Taming Unlocks Per Level
+  true  ->  false
 ```
 
 ### Name Tamed Animals

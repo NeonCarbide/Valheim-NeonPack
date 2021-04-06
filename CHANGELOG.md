@@ -5,6 +5,7 @@ This modpack uses the [semantic versioning](https://semver.org) convention of `M
 ## _Sorted by Most Recent_ <!-- omit in toc -->
 
 - [Version 2.x.x](#version-2xx)
+  - [2.9.0](#290)
   - [2.8.0](#280)
   - [2.7.0](#270)
   - [2.6.0](#260)
@@ -45,6 +46,38 @@ This modpack uses the [semantic versioning](https://semver.org) convention of `M
 ### Version 2.x.x
 
 ---
+
+#### 2.9.0
+
+```text
+[Thunderstore]
+
+  + Added More Skills 1.9.6
+
+  - Removed Skillful
+    - Similar features added by More Skills
+
+  * Updated Build Camera
+    - 1.4.1 -> 1.5.0
+  * Updated Creature Level and Loot Control
+    - 3.4.0 -> 3.5.0
+  * Updated Epic Loot
+    - 0.6.3 -> 0.7.2
+  * Updated Quick Stack
+    - 0.6.5 -> 0.6.6
+
+[NexusMods]
+
+  - Removed More Skills
+    - Replaced by Thunderstore version of mod
+
+  * Updated Clock
+    - 1.1.1 -> 1.4.3
+  * Updated Combat Evolved
+    - 0.4.2 -> 0.4.5
+  * Updated Compass
+    - 0.4.0 -> 0.6.0
+```
 
 #### 2.8.0
 
