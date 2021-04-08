@@ -40,6 +40,15 @@ I will maintain a trimmed version of the full changelog within this README of on
 
 ### Recent Updates
 
+Version 2.10.1
+
+```text
+[Thunderstore]
+
+  * Updated Creature Level and Loot Control
+    - 3.5.2 -> 3.5.3
+```
+
 Version 2.10.0
 
 ```text
