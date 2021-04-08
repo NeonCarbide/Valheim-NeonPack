@@ -27,6 +27,7 @@ Variable to Change
 - [Build Helper](#build-helper)
 - [Colorful Signs](#colorful-signs)
 - [Configurable Autosave](#configurable-autosave)
+- [Cooking Skill](#cooking-skill)
 - [Creature Level and Loot Control](#creature-level-and-loot-control)
 - [Epic Loot](#epic-loot)
 - [Explore Together](#explore-together)
@@ -51,9 +52,7 @@ Variable to Change
 - [Paddle Power](#paddle-power)
 - [Prevent Accidental Interaction](#prevent-accidental-interaction)
 - [Proper Portals](#proper-portals)
-- [Skillful](#skillful)
 - [Triple Bronze](#triple-bronze)
-- [Useful Trophies](#useful-trophies)
 - [Wet and Cold](#wet-and-cold)
 
 ---
@@ -181,6 +180,15 @@ General
 ```text
 AutosaveInterval
   1200  ->  1800
+```
+
+### Cooking Skill
+
+Fermenter Effects
+
+```text
+Fermenter Drop Levels
+  75,50,100  ->  25,50,75,100
 ```
 
 ### Creature Level and Loot Control
@@ -518,15 +526,6 @@ MinPortalTime
   0  ->  3
 ```
 
-### Skillful
-
-Skillful
-
-```text
-BaseSneakSpeed
-  3  ->  2
-```
-
 ### Triple Bronze
 
 TripleBronze
@@ -534,18 +533,6 @@ TripleBronze
 ```text
 BronzeMultiplier
   3  ->  2
-```
-
-### Useful Trophies
-
-BossConsumption
-
-```text
-BossesResetGuardianCooldown
-  true  ->  false
-
-BossesApplyGuardianPower
-  false  ->  true
 ```
 
 ### Wet and Cold

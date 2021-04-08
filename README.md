@@ -9,6 +9,7 @@ I also use the following mods from NexusMods
 _Required:_
 
 - [Combat Evolved 0.4.5][combat-evolved]
+- [Cooking Skill 1.1.5][cooking-skill]
 - [Crush Antlers 0.1.0][crush-antlers]
 - [Fitness Skill 1.0.3][fitness-skill]
 - [Mod Config Enforcer 1.4.1][mod-config-enforcer]
@@ -17,9 +18,9 @@ _Optional:_
 
 - [Better Pickup Notifications 1.2.0][better-pickup-notifications]
 - [Clock 1.4.3][clock]
-- [Compass 0.6.0][compass]
+- [Compass 0.6.2][compass]
 - [Configurable Autosave 1.1.0][configurable-autosave]
-- [Configuration Manager 0.3.3][configuration-manager]
+- [Configuration Manager 0.4.0][configuration-manager]
 - [Loki's First Person Valheim Mod 1.0.6][lokis-first-person]
 - [Loki's Immersion Mods 1.0.3][lokis-immersion]
 - [Nexus Update Check 1.1.1][nexus-update-check]
@@ -39,36 +40,40 @@ I will maintain a trimmed version of the full changelog within this README of on
 
 ### Recent Updates
 
-Version 2.9.0
+Version 2.10.0
 
 ```text
 [Thunderstore]
 
-  + Added More Skills 1.9.6
+  + Added Better Continents 0.6.1
+  + Added Item Drawers 0.4.0
+  + Added Skyheim 1.0.4
+  + Added Surtling Core Overclocking 1.0.1
 
-  - Removed Skillful
-    - Similar features added by More Skills
+  - Removed Comfort Calculation Tweaks
+    - Was patched in one of the 0.148.x Valheim updates and forgot to remove
+  - Removed Useful Trophies
+    - Originally added due to lack of use for trophies other than decoration
 
-  * Updated Build Camera
-    - 1.4.1 -> 1.5.0
   * Updated Creature Level and Loot Control
-    - 3.4.0 -> 3.5.0
+    - 3.5.0 -> 3.5.2
+  * Updated Emote Wheel
+    - 1.2.0 -> 1.3.0
   * Updated Epic Loot
-    - 0.6.3 -> 0.7.2
-  * Updated Quick Stack
-    - 0.6.5 -> 0.6.6
+    - 0.7.2 -> 0.7.5
+  * Updated Jotunn Lib
+    - 0.1.4 -> 0.1.6
+  * Updated Proper Portals
+    - 1.1.0 -> 1.2.0
 
 [NexusMods]
 
-  - Removed More Skills
-    - Replaced by Thunderstore version of mod
-
-  * Updated Clock
-    - 1.1.1 -> 1.4.3
-  * Updated Combat Evolved
-    - 0.4.2 -> 0.4.5
   * Updated Compass
-    - 0.4.0 -> 0.6.0
+    - 0.6.0 -> 0.6.2
+  * Updated Configuration Manager
+    - 0.3.3 -> 0.4.0
+  * Updated Cooking Skill
+    - 1.1.4 -> 1.1.5
 ```
 
 [changelog]: https://github.com/NeonCarbide/Valheim-NeonPack/blob/main/CHANGELOG.md
@@ -83,6 +88,7 @@ Version 2.9.0
 [compass]: https://www.nexusmods.com/valheim/mods/851
 [configurable-autosave]: https://www.nexusmods.com/valheim/mods/199
 [configuration-manager]: https://www.nexusmods.com/valheim/mods/740
+[cooking-skill]: https://www.nexusmods.com/valheim/mods/483
 [crush-antlers]: https://www.nexusmods.com/valheim/mods/590
 [fitness-skill]: https://www.nexusmods.com/valheim/mods/388
 [gathering-skill]: https://www.nexusmods.com/valheim/mods/342

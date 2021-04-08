@@ -5,6 +5,7 @@ This modpack uses the [semantic versioning](https://semver.org) convention of `M
 ## _Sorted by Most Recent_ <!-- omit in toc -->
 
 - [Version 2.x.x](#version-2xx)
+  - [2.10.0](#2100)
   - [2.9.0](#290)
   - [2.8.0](#280)
   - [2.7.0](#270)
@@ -46,6 +47,42 @@ This modpack uses the [semantic versioning](https://semver.org) convention of `M
 ### Version 2.x.x
 
 ---
+
+#### 2.10.0
+
+```text
+[Thunderstore]
+
+  + Added Better Continents 0.6.1
+  + Added Item Drawers 0.4.0
+  + Added Skyheim 1.0.4
+  + Added Surtling Core Overclocking 1.0.1
+
+  - Removed Comfort Calculation Tweaks
+    - Was patched in one of the 0.148.x Valheim updates and forgot to remove
+  - Removed Useful Trophies
+    - Originally added due to lack of use for trophies other than decoration
+
+  * Updated Creature Level and Loot Control
+    - 3.5.0 -> 3.5.2
+  * Updated Emote Wheel
+    - 1.2.0 -> 1.3.0
+  * Updated Epic Loot
+    - 0.7.2 -> 0.7.5
+  * Updated Jotunn Lib
+    - 0.1.4 -> 0.1.6
+  * Updated Proper Portals
+    - 1.1.0 -> 1.2.0
+
+[NexusMods]
+
+  * Updated Compass
+    - 0.6.0 -> 0.6.2
+  * Updated Configuration Manager
+    - 0.3.3 -> 0.4.0
+  * Updated Cooking Skill
+    - 1.1.4 -> 1.1.5
+```
 
 #### 2.9.0
 
