@@ -6,6 +6,7 @@ This modpack uses the [semantic versioning](https://semver.org) convention of `M
 
 - [Version 2.x.x](#version-2xx)
   - [2.10.x](#210x)
+    - [2.10.2](#2102)
     - [2.10.1](#2101)
     - [2.10.0](#2100)
   - [2.9.0](#290)
@@ -51,6 +52,15 @@ This modpack uses the [semantic versioning](https://semver.org) convention of `M
 ---
 
 #### 2.10.x
+
+##### 2.10.2
+
+```text
+[Thunderstore]
+
+  * Updated Creature Level and Loot Control
+    - 3.5.3 -> 3.5.4
+```
 
 ##### 2.10.1
 

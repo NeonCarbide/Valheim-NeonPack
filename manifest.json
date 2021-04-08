@@ -1,6 +1,6 @@
 {
   "name": "NeonPack",
-  "version_number": "2.10.1",
+  "version_number": "2.10.2",
   "website_url": "https://github.com/NeonCarbide/Valheim-NeonPack",
   "description": "A collection of mods from Thunderstore that I've curated for personal use. Be sure to check the changelog for any changes.",
   "dependencies": [
@@ -41,7 +41,7 @@
     "Rolo-ExploreTogether-1.3.0",
     "Crystal-Pathfinder-2.0.3",
     "Nextek-SpeedyPaths-1.0.4",
-    "Smoothbrain-CreatureLevelAndLootControl-3.5.3",
+    "Smoothbrain-CreatureLevelAndLootControl-3.5.4",
     "Rolo-DaisyChain-1.0.0",
     "JotunnLibTeam-JotunnLib-0.1.6",
     "Crystal-FastTools-1.1.0",
